@@ -1,0 +1,28 @@
+#N canvas 127 529 493 422 10;
+#X declare -lib mrpeach -lib udpsend;
+#X obj 296 154 import mrpeach udpsend;
+#X obj 34 211 tgl 15 0 empty empty empty 17 7 0 10 -204786 -1 -1 1
+1;
+#X msg 89 155 connect 10.0.0.10 10000;
+#X obj 33 184 udpsend;
+#X floatatom 215 284 3 0 0 0 - - -;
+#X floatatom 242 284 3 0 0 0 - - -;
+#X floatatom 269 284 3 0 0 0 - - -;
+#X floatatom 296 284 3 0 0 0 - - -;
+#X floatatom 324 284 5 0 0 0 - - -;
+#X obj 215 258 unpack 0 0 0 0 0;
+#X obj 173 213 unpackOSC;
+#X obj 190 324 print delay;
+#X obj 100 354 print messageOSC;
+#X obj 175 183 udpreceive 1234;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 9 0 4 0;
+#X connect 9 1 5 0;
+#X connect 9 2 6 0;
+#X connect 9 3 7 0;
+#X connect 9 4 8 0;
+#X connect 10 0 12 0;
+#X connect 10 1 11 0;
+#X connect 13 0 10 0;
+#X connect 13 1 9 0;
