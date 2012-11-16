@@ -28,6 +28,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-27",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 438.0, 366.0, 50.0, 58.0 ],
+					"text" : "address /random.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -117,7 +132,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 25.0, 69.0, 172.0, 242.0 ],
+						"rect" : [ 760.0, 563.0, 172.0, 242.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -136,6 +151,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -515,7 +531,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 5,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
+					"outlettype" : [ "", "bang", "int" ],
 					"patching_rect" : [ 28.0, 287.0, 219.0, 18.0 ],
 					"text" : "linecurv 0. 0"
 				}
@@ -676,7 +692,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 8,
+					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 192.0, 349.0, 18.0 ],
@@ -859,19 +875,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 7 ],
+					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-62", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-27", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-62", 0 ]
+					"source" : [ "obj-62", 1 ]
 				}
 
 			}
@@ -901,87 +917,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "randtransf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomfR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxi.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm-sw.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.preset.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

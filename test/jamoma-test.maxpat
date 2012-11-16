@@ -43,7 +43,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 339.0, 73.0, 373.0, 168.0 ],
+						"rect" : [ 192.0, 459.0, 373.0, 168.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -161,7 +161,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 371.0, 322.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -541,7 +541,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 687.0, 210.0, 689.0, 345.0 ],
+						"rect" : [ 991.0, 51.0, 689.0, 345.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -872,7 +872,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 531.0, 320.0, 589.0, 350.0 ],
+						"rect" : [ 788.0, 458.0, 589.0, 390.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -899,8 +899,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 148.0, 219.0, 100.0, 20.0 ],
-									"text" : "print"
+									"patching_rect" : [ 149.5, 242.0, 163.0, 20.0 ],
+									"text" : "print udpreceiver.1:initialized"
 								}
 
 							}
@@ -1499,7 +1499,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 564.0, 118.0, 212.0, 20.0 ],
-					"text" : "jcom.remote @address /random.1/val"
+					"text" : "jcom.remote /random.1/val/min"
 				}
 
 			}
@@ -1560,7 +1560,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 23.0, 529.0, 188.0, 33.0 ],
+									"patching_rect" : [ 106.0, 529.0, 188.0, 33.0 ],
 									"text" : "MARCHE PLUS"
 								}
 
@@ -1873,7 +1873,7 @@
 									"fontsize" : 12.0,
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 									"id" : "obj-1",
-									"items" : [ "", ",", "external", ",", "model", ",", "model/address", ",", "preset", ",", "preset/interpolate", ",", "preset/mix", ",", "preset/order", ",", "preset/read", ",", "preset/recall", ",", "preset/remove", ",", "preset/store", ",", "preset/write", ",", "stop", ",", "stop/on_next", ",", "sw", ",", "time", ",", "time/max", ",", "time/min", ",", "trans", ",", "trans/max", ",", "trans/min", ",", "val", ",", "val/max", ",", "val/min" ],
+									"items" : [ "", ",", "external", ",", "model", ",", "model/address", ",", "model/class", ",", "model/documentation", ",", "model/documentation/generate", ",", "model/help", ",", "model/internals", ",", "model/mute", ",", "model/reference", ",", "preset", ",", "preset/interpolate", ",", "preset/mix", ",", "preset/order", ",", "preset/read", ",", "preset/recall", ",", "preset/remove", ",", "preset/store", ",", "preset/write", ",", "stop", ",", "stop/on_next", ",", "sw", ",", "time", ",", "time/max", ",", "time/min", ",", "trans", ",", "trans/max", ",", "trans/min", ",", "val", ",", "val/max", ",", "val/min" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1911,7 +1911,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 45.0, 413.0, 158.0, 47.0 ],
+									"patching_rect" : [ 45.0, 413.0, 161.0, 47.0 ],
 									"text" : "jcom.namespace @address / @output parameter @format umenu_prefix"
 								}
 
@@ -2535,8 +2535,8 @@
 					"name" : "random.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 54.0, 300.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
+					"patching_rect" : [ 239.0, 54.0, 300.0, 105.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
 				}
 
 			}
@@ -2675,52 +2675,59 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randtransf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
+				"name" : "randtransf.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randomfR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
+				"name" : "randomfR.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randomR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
+				"name" : "randomR.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "minmaxi.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
+				"name" : "minmaxi.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"type" : "JSON",
+				"name" : "linecurv.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"type" : "JSON",
+				"name" : "scalecurv.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
+				"name" : "minmaxf.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "explinlog.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

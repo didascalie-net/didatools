@@ -82,10 +82,10 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 29.0, 165.0, 212.0, 20.0 ],
-					"text" : "jcom.remote @address /random.2/val"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 29.0, 165.0, 153.0, 20.0 ],
+					"text" : "jcom.remote /random.2/val"
 				}
 
 			}
@@ -112,10 +112,10 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 29.0, 103.0, 211.0, 20.0 ],
-					"text" : "jcom.remote @address /random.1/val"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 29.0, 103.0, 153.0, 20.0 ],
+					"text" : "jcom.remote /random.1/val"
 				}
 
 			}
