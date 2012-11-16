@@ -1,0 +1,19 @@
+<!DOCTYPE acousmoscribeSave PUBLIC 'Acousmoscribe 2009' 'http://scrime.labri.fr'>
+<GRAPHICS>
+ <boxes>
+  <box mother="1" type="parent" ID="2" name="Box_1">
+   <position>
+    <top-left x="119" y="154"/>
+    <size x="312" y="218"/>
+   </position>
+   <color red="0" blue="0" green="0"/>
+  </box>
+  <box mother="1" type="parent" ID="3" name="Box_2">
+   <position>
+    <top-left x="3" y="75"/>
+    <size x="52" y="490"/>
+   </position>
+   <color red="0" blue="0" green="0"/>
+  </box>
+ </boxes>
+</GRAPHICS>

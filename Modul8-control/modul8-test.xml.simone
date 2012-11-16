@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ENGINES version="0.8" scenarioSize="600000">
+  <EDITOR>
+    <BOXES>
+      <BOX id="1" begin="0" length="600000" processid="1">
+        <BOXES>
+          <BOX id="2" begin="3808" length="9984" processid="2">
+            <BOXES/>
+            <RELATIONS/>
+            <TRIGGERPOINTS/>
+            <CONTROLPOINTS>
+              <CONTROLPOINT id="1" begin="3808" stepid="1"/>
+              <CONTROLPOINT id="2" begin="13792" stepid="2"/>
+            </CONTROLPOINTS>
+          </BOX>
+          <BOX id="3" begin="96" length="1664" processid="3">
+            <BOXES/>
+            <RELATIONS/>
+            <TRIGGERPOINTS/>
+            <CONTROLPOINTS>
+              <CONTROLPOINT id="1" begin="96" stepid="1"/>
+              <CONTROLPOINT id="2" begin="1760" stepid="2"/>
+            </CONTROLPOINTS>
+          </BOX>
+        </BOXES>
+        <RELATIONS/>
+        <TRIGGERPOINTS>
+          <TRIGGERPOINT id="1" message="/Box_1/start" relatedBoxId="2" relatedControlPointId="1" mute="false"/>
+        </TRIGGERPOINTS>
+        <CONTROLPOINTS>
+          <CONTROLPOINT id="1" begin="0" stepid="1"/>
+          <CONTROLPOINT id="2" begin="600000" stepid="2"/>
+        </CONTROLPOINTS>
+      </BOX>
+    </BOXES>
+    <RELATIONS/>
+    <TRIGGERPOINTS/>
+  </EDITOR>
+  <ECOMACHINE>
+    <ECOPROCESS>
+      <PROCESS id="2" type="networkMessageToSend" mute="false">
+        <STEP id="1" mute="false">
+          <MESSAGE value="MinuitDevice1/modul8.1/entrypoint 0"/>
+          <MESSAGE value="MinuitDevice1/modul8.1/color/alpha 0."/>
+          <MESSAGE value="MinuitDevice1/modul8.1/sw "/>
+          <MESSAGE value="MinuitDevice1/modul8.1/name 2"/>
+        </STEP>
+        <STEP id="2" mute="false">
+          <MESSAGE value="MinuitDevice1/modul8.1/color/alpha 1."/>
+        </STEP>
+        <CURVE_INFORMATION address="MinuitDevice1/modul8.1/color/alpha" samplerate="10" avoidRedundancy="true" muteState="false">
+          <ARGUMENT nb="0">
+            <SECTION section_type="pow" coeff="1"/>
+          </ARGUMENT>
+        </CURVE_INFORMATION>
+        <CURVE_INFORMATION address="MinuitDevice1/modul8.1/color/red" samplerate="10" avoidRedundancy="true" muteState="false">
+          <ARGUMENT nb="0">
+            <SECTION section_type="pow" coeff="1"/>
+          </ARGUMENT>
+        </CURVE_INFORMATION>
+      </PROCESS>
+      <PROCESS id="3" type="networkMessageToSend" mute="false">
+        <STEP id="1" mute="false"/>
+        <STEP id="2" mute="false"/>
+      </PROCESS>
+    </ECOPROCESS>
+  </ECOMACHINE>
+</ENGINES>
