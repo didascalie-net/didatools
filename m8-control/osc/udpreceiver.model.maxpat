@@ -56,21 +56,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-37",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 395.5, 292.5, 20.0 ],
-					"text" : "tm-sw #1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-1",
@@ -180,7 +165,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 88.0, 118.0, 580.0, 27.0 ],
-					"text" : "jcom.parameter speedlim @type integer @value/default 10 @range/bounds 0 0 @range/clipmode down @priority 200 @description \"speedlim limitation to prevent too many messages incoming\""
+					"text" : "jcom.parameter speedlim @type integer @value/default 0 @range/bounds 0 0 @range/clipmode down @priority 200 @description \"speedlim limitation to prevent too many messages incoming\""
 				}
 
 			}
@@ -325,7 +310,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 152.0, 72.0, 17.0 ],
-					"text" : "speedlim 10"
+					"text" : "speedlim 0"
 				}
 
 			}
@@ -390,11 +375,11 @@
 					"fontsize" : 9.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 368.0, 150.0, 17.0 ],
-					"text" : "r #1/print"
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 11.0, 368.0, 220.0, 17.0 ],
+					"text" : "jcom.parameter print @value/default 0 @priority 999"
 				}
 
 			}
@@ -589,16 +574,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 249.5, 426.5, 549.5, 426.5, 549.5, 348.0, 249.5, 348.0 ],
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -613,15 +588,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-62", 0 ]
 				}
 
 			}
@@ -726,34 +692,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "tm-sw.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/test",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.preset.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

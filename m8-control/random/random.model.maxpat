@@ -31,13 +31,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-27",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 438.0, 366.0, 50.0, 58.0 ],
-					"text" : "address /random.1"
+					"patching_rect" : [ 438.0, 366.0, 50.0, 31.0 ],
+					"text" : "address state"
 				}
 
 			}
@@ -151,7 +151,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -531,7 +530,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 5,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "int" ],
+					"outlettype" : [ "", "", "int" ],
 					"patching_rect" : [ 28.0, 287.0, 219.0, 18.0 ],
 					"text" : "linecurv 0. 0"
 				}
@@ -620,7 +619,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 358.0, 156.0, 564.0, 29.0 ],
+					"patching_rect" : [ 358.0, 159.0, 564.0, 29.0 ],
 					"text" : "jcom.parameter trans/max @type integer @description \"the maximum trans for the randomed value\" @value/default 100 @range/bounds 0 100 @range/clipmode both @range/clipmode both @priority 60 @ramp/drive scheduler"
 				}
 
@@ -692,7 +691,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 7,
+					"numinlets" : 8,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 192.0, 349.0, 18.0 ],
@@ -875,6 +874,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 7 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -917,6 +925,87 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "randtransf.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomfR.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomR.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minmaxi.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "linecurv.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scalecurv.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minmaxf.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm-sw.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.preset.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

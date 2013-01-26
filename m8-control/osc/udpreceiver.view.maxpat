@@ -28,6 +28,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 243.0, 116.0, 79.0, 17.0 ],
+					"text" : "jcom.remote print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
 					"maxclass" : "inlet",
@@ -203,7 +218,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 236.0, 55.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 234.0, 38.0, 55.0, 18.0 ],
+					"presentation_rect" : [ 234.0, 29.0, 55.0, 18.0 ],
 					"text" : "/activity",
 					"textcolor" : [ 0.0, 0.0, 0.784314, 1.0 ]
 				}
@@ -218,7 +233,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 50.0, 236.0, 17.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.0, 38.0, 17.0, 17.0 ],
+					"presentation_rect" : [ 281.0, 29.0, 17.0, 17.0 ],
 					"varname" : "activity"
 				}
 
@@ -289,7 +304,7 @@
 					"outlettype" : [ "", "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "waiting for a model/address"
+					"text" : "/noModelAddress"
 				}
 
 			}
@@ -332,6 +347,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -364,6 +388,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
