@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 219.0, 253.0, 882.0, 523.0 ],
+		"rect" : [ 104.0, 46.0, 882.0, 523.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,6 +30,37 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-6",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 430.0, 86.0, 428.0, 47.0 ],
+					"presentation_rect" : [ 430.0, 85.0, 0.0, 0.0 ],
+					"text" : "Il faut pouvoir rendre invisible des memoires afin qu'elles ne soient pas répertoriées dans l'ordre et qu'elles servent de modeles de namespace… a moins de pouvoir enregister des nodelists quelque part (span)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 430.0, 46.0, 378.0, 33.0 ],
+					"text" : "il faut pouvoir locker des memoires afin de s'en servir comme init. ou bien un autre jcom.cue?\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
@@ -42,7 +73,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -274,7 +305,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-63",
-									"items" : [ "Init", ",", "2013-01-27 18:05:51", ",", "2013-01-27 18:08:32" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -741,7 +772,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 1021.0, 18.0 ],
-													"text" : "write work:/Users/renaudrubiano/Documents/GITs/Modul8-control/jamoma/cuelist.xml"
+													"text" : "write work:/Users/renaudrubiano/Documents/GITs/didatools/m8-control/cuelist.xml"
 												}
 
 											}
@@ -885,8 +916,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 22.0, 59.5, 142.0, 20.0 ],
-									"text" : "combine Path cuelist.xml"
+									"patching_rect" : [ 22.0, 59.5, 164.0, 20.0 ],
+									"text" : "combine Path m8-control.xml"
 								}
 
 							}

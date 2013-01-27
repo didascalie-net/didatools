@@ -2377,50 +2377,50 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "modul8.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/Modul8-control/jamoma",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/modul8",
+				"patcherrelativepath" : "../m8-control/modules/modul8",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modul8.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/Modul8-control/jamoma",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/modul8",
+				"patcherrelativepath" : "../m8-control/modules/modul8",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "udpsender.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/osc",
-				"patcherrelativepath" : "../../didatools/m8-control/osc",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
+				"patcherrelativepath" : "../m8-control/modules/osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "udpreceiver.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/osc",
-				"patcherrelativepath" : "../../didatools/m8-control/osc",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
+				"patcherrelativepath" : "../m8-control/modules/osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "udpsender.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/osc",
-				"patcherrelativepath" : "../../didatools/m8-control/osc",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
+				"patcherrelativepath" : "../m8-control/modules/osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "udpreceiver.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/osc",
-				"patcherrelativepath" : "../../didatools/m8-control/osc",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
+				"patcherrelativepath" : "../m8-control/modules/osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cue.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/Modul8-control/jamoma",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/cue",
+				"patcherrelativepath" : "../m8-control/modules/cue",
 				"type" : "JSON",
 				"implicit" : 1
 			}
