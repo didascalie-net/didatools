@@ -319,7 +319,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 335.0, 139.0, 133.0, 20.0 ],
-					"text" : "jcom.remote /trans/min"
+					"text" : "jcom.remote trans/min"
 				}
 
 			}
@@ -485,7 +485,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "waiting for a model/address"
+					"text" : "/noModelAddress"
 				}
 
 			}
