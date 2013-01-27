@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 553.0, 71.0, 1021.0, 456.0 ],
+		"rect" : [ 346.0, 419.0, 1021.0, 456.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 429.0, 337.0, 111.0, 18.0 ],
-					"text" : "address state"
+					"text" : "address /random.1"
 				}
 
 			}
@@ -110,7 +110,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 264.0, 107.0, 272.0, 18.0 ],
-					"text" : "jcom.message stop @type bang @description \"stop motor\""
+					"text" : "jcom.message stop @type none @description \"stop motor\""
 				}
 
 			}
@@ -925,94 +925,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "randtransf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomfR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxi.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "explinlog.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm-sw.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.preset.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
