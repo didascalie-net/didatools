@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 30.0, 59.0, 1126.0, 295.0 ],
+		"rect" : [ 30.0, 59.0, 1155.0, 295.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-15",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 560.0, 209.0, 200.0, 17.0 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.317647, 0.709804, 0.321569, 1.0 ],
 					"fontname" : "Arial",
@@ -462,8 +476,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 943.0, 150.0, 134.0, 22.0 ],
-					"text" : "udpsender.maxhelp"
+					"patching_rect" : [ 932.0, 151.0, 190.0, 22.0 ],
+					"text" : "udpsender.model /oscsend.1"
 				}
 
 			}
@@ -476,8 +490,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 943.0, 126.0, 147.0, 22.0 ],
-					"text" : "udpreceiver.maxhelp"
+					"patching_rect" : [ 932.0, 126.0, 218.0, 22.0 ],
+					"text" : "udpreceiver.model /oscreceive.1"
 				}
 
 			}
@@ -490,7 +504,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 943.0, 102.0, 168.0, 22.0 ],
+					"patching_rect" : [ 932.0, 102.0, 167.0, 22.0 ],
 					"text" : "random.model /random.2"
 				}
 
@@ -504,7 +518,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 943.0, 78.0, 168.0, 22.0 ],
+					"patching_rect" : [ 932.0, 78.0, 167.0, 22.0 ],
 					"text" : "random.model /random.1"
 				}
 
@@ -560,7 +574,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1450,21 +1463,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-34",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 332.0, 157.0, 215.0, 27.0 ],
-					"text" : "MIXED-MODULES VIEW",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-7",
@@ -1501,18 +1499,6 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 564.0, 118.0, 212.0, 20.0 ],
 					"text" : "jcom.remote /random.1/val/min"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-40",
-					"maxclass" : "bpatcher",
-					"name" : "multiples_random.view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 178.0, 300.0, 70.0 ],
-					"presentation_rect" : [ 619.0, 306.0, 300.0, 105.0 ]
 				}
 
 			}
@@ -1874,7 +1860,7 @@
 									"fontsize" : 12.0,
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 									"id" : "obj-1",
-									"items" : [ "external", ",", "model", ",", "model/address", ",", "model/class", ",", "model/documentation", ",", "model/documentation/generate", ",", "model/edit", ",", "model/help", ",", "model/internals", ",", "model/reference", ",", "preset", ",", "preset/interpolate", ",", "preset/mix", ",", "preset/order", ",", "preset/read", ",", "preset/read/again", ",", "preset/recall", ",", "preset/remove", ",", "preset/store", ",", "preset/write", ",", "preset/write/again", ",", "stop", ",", "stop/on_next", ",", "sw", ",", "time", ",", "time/max", ",", "time/min", ",", "trans", ",", "trans/max", ",", "trans/min", ",", "val", ",", "val/max", ",", "val/min" ],
+									"items" : [ "bang", ",", "external", ",", "model", ",", "model/address", ",", "model/class", ",", "model/documentation", ",", "model/documentation/generate", ",", "model/edit", ",", "model/help", ",", "model/internals", ",", "model/reference", ",", "preset", ",", "preset/interpolate", ",", "preset/mix", ",", "preset/order", ",", "preset/read", ",", "preset/read/again", ",", "preset/recall", ",", "preset/remove", ",", "preset/store", ",", "preset/write", ",", "preset/write/again", ",", "stop", ",", "stop/on_next", ",", "sw", ",", "time", ",", "time/max", ",", "time/min", ",", "trans", ",", "trans/max", ",", "trans/min", ",", "val", ",", "val/max", ",", "val/min" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2636,6 +2622,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2662,13 +2657,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "multiples_random.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "random.model.maxpat",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/random",
 				"patcherrelativepath" : "../m8-control/modules/random",
@@ -2677,64 +2665,64 @@
 			}
 , 			{
 				"name" : "randtransf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randomfR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
+				"name" : "randomfR.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randomR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
+				"name" : "randomR.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minmaxi.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"type" : "JSON",
+				"name" : "linecurv.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"type" : "JSON",
+				"name" : "scalecurv.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
+				"name" : "minmaxf.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "explinlog.mxt",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tm-sw.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "udpreceiver.maxhelp",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
-				"patcherrelativepath" : "../m8-control/modules/osc",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../m8-control/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2746,28 +2734,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "udpreceiver.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
-				"patcherrelativepath" : "../m8-control/modules/osc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "udpsender.maxhelp",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
-				"patcherrelativepath" : "../m8-control/modules/osc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "udpsender.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
-				"patcherrelativepath" : "../m8-control/modules/osc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "udpsender.view.maxpat",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
 				"patcherrelativepath" : "../m8-control/modules/osc",
 				"type" : "JSON",

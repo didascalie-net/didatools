@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 21.0, 44.0, 1021.0, 456.0 ],
+		"rect" : [ 553.0, 71.0, 1021.0, 456.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,13 +30,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-27",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 438.0, 366.0, 50.0, 31.0 ],
+					"patching_rect" : [ 429.0, 337.0, 111.0, 18.0 ],
 					"text" : "address state"
 				}
 
@@ -66,7 +66,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 440.0, 237.0, 187.0, 18.0 ],
-					"text" : "/model/documentation/generate"
+					"text" : "model/documentation/generate"
 				}
 
 			}
@@ -635,8 +635,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 311.0, 126.0, 604.0, 29.0 ],
-					"text" : "jcom.parameter trans/min @type integer @description \"the minimum trans for the randomed value\" @value/default 0 @range/bounds 0 100 @range/clipmode both @range/clipmode @priority 50 @ramp/drive scheduler"
+					"patching_rect" : [ 310.857147, 127.0, 604.0, 29.0 ],
+					"text" : "jcom.parameter trans/min @type integer @value/default 0 @range/bounds 0 100 @range/clipmode both @priority 50 @ramp/drive scheduler"
 				}
 
 			}
@@ -929,57 +929,64 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "randtransf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randomfR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randomR.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minmaxi.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "explinlog.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tm-sw.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
