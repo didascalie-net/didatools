@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<jamoma version="0.6" xmlns:xsi="'http://www.w3.org/2001/XMLSchema-instance'" xsi:schemaLocation="'http://jamoma.org/ file:jamoma.xsd'">
- <application name="VDMX" version="V1.0">
-  <plugin name="Minuit" ip="127.0.0.1" port="1234"/>
-  <namespace file="/Users/Renaud/Desktop/VDMX-control/VDMX-namespace.opml"/>
- </application>
-</jamoma>

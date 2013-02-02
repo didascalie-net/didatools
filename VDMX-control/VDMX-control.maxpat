@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 7
 		}
 ,
-		"rect" : [ 189.0, 92.0, 816.0, 694.0 ],
+		"rect" : [ 654.0, 65.0, 816.0, 694.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -80,7 +80,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 534.0, 161.0, 114.0, 20.0 ],
+					"patching_rect" : [ 603.0, 161.0, 114.0, 20.0 ],
 					"text" : "print VDMX-Activity"
 				}
 
@@ -94,8 +94,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 534.0, 132.0, 212.0, 20.0 ],
-					"text" : "jcom.receive VDMXcontrol:activity/out"
+					"patching_rect" : [ 603.0, 132.0, 176.0, 20.0 ],
+					"text" : "jcom.receive VDMX:activity/out"
 				}
 
 			}
@@ -107,7 +107,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 534.0, 85.0, 100.0, 20.0 ],
+					"patching_rect" : [ 603.0, 85.0, 100.0, 20.0 ],
 					"text" : "print TotalActivity"
 				}
 
@@ -121,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 534.0, 56.0, 145.0, 20.0 ],
+					"patching_rect" : [ 603.0, 56.0, 145.0, 20.0 ],
 					"text" : "jcom.receive /:activity/out"
 				}
 
@@ -169,7 +169,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 378.0, 319.0 ],
@@ -483,7 +483,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-40",
-					"items" : "alpha",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -520,8 +520,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 214.0, 531.0, 321.0, 20.0 ],
-					"text" : "jcom.namespace @output children @format umenu_prefix"
+					"patching_rect" : [ 214.0, 531.0, 348.0, 20.0 ],
+					"text" : "jcom.namespace @output descendants @format umenu_prefix"
 				}
 
 			}
@@ -544,7 +544,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
-					"items" : [ "color", ",", "position" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -581,8 +581,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 148.0, 397.0, 321.0, 20.0 ],
-					"text" : "jcom.namespace @output children @format umenu_prefix"
+					"patching_rect" : [ 148.0, 397.0, 347.0, 20.0 ],
+					"text" : "jcom.namespace @output descendants @format umenu_prefix"
 				}
 
 			}
@@ -595,7 +595,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 302.0, 158.0, 32.5, 20.0 ],
+					"patching_rect" : [ 331.5, 161.0, 32.5, 20.0 ],
 					"text" : "t 0"
 				}
 
@@ -609,7 +609,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 221.0, 132.0, 100.0, 20.0 ],
+					"patching_rect" : [ 250.5, 138.0, 100.0, 20.0 ],
 					"text" : "route none"
 				}
 
@@ -647,14 +647,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-50",
-					"items" : [ "1", ",", "10", ",", "2", ",", "3", ",", "4", ",", "5", ",", "6", ",", "7", ",", "8", ",", "9" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 82.0, 285.0, 151.0, 20.0 ],
-					"prefix" : "VDMXcontrol:/layer.",
+					"prefix" : "VDMXcontrol:/degrade~.",
 					"presentation" : 1,
 					"presentation_rect" : [ 112.0, 6.0, 50.0, 20.0 ]
 				}
@@ -680,14 +680,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"items" : "layer",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 133.0, 151.0, 20.0 ],
-					"prefix" : "work:/",
+					"prefix" : "VDMX://",
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 6.0, 100.0, 20.0 ]
 				}
@@ -717,8 +717,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 16.5, 108.0, 461.0, 20.0 ],
-					"text" : "jcom.namespace @address VDMXcontrol:/ @format umenu_prefix @output children"
+					"patching_rect" : [ 16.5, 108.0, 487.0, 20.0 ],
+					"text" : "jcom.namespace @address VDMX:/ @format umenu_prefix @output descendants"
 				}
 
 			}
@@ -754,10 +754,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 8
+							"revision" : 7
 						}
 ,
-						"rect" : [ 25.0, 69.0, 544.0, 289.0 ],
+						"rect" : [ 25.0, 69.0, 505.0, 241.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -777,20 +777,6 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 247.0, 204.0, 20.0 ],
-									"text" : "jcom.modular Minuit @name myApp"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "toggle",
@@ -850,7 +836,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 329.5, 74.5, 157.0, 45.0 ],
+									"patching_rect" : [ 329.5, 63.0, 157.0, 45.0 ],
 									"text" : "protocol/setup ip 127.0.0.1, protocol/setup port 1234, protocol/setup"
 								}
 
@@ -892,8 +878,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 88.0, 82.0, 20.0 ],
-									"text" : "prepend read"
+									"patching_rect" : [ 7.0, 88.0, 145.0, 20.0 ],
+									"text" : "prepend namespace/read"
 								}
 
 							}
@@ -903,25 +889,11 @@
 									"fontsize" : 12.0,
 									"id" : "obj-18",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 7.0, 63.0, 156.0, 20.0 ],
-									"text" : "combine VDMX-control.xml"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-17",
-									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 7.0, 39.0, 65.0, 20.0 ],
-									"text" : "route path"
+									"patching_rect" : [ 7.0, 63.0, 144.0, 20.0 ],
+									"text" : "combine Path VDMX.xml"
 								}
 
 							}
@@ -934,8 +906,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 130.0, 201.0, 20.0 ],
-									"text" : "jcom.modular VDMXcontrol Minuit"
+									"patching_rect" : [ 7.0, 130.0, 156.0, 20.0 ],
+									"text" : "jcom.modular VDMX Minuit"
 								}
 
 							}
@@ -960,7 +932,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 95.0, 88.0, 100.0, 18.0 ],
+									"patching_rect" : [ 202.0, 19.0, 100.0, 18.0 ],
 									"text" : "namespace/read"
 								}
 
@@ -971,7 +943,7 @@
 									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 104.5, 117.5, 16.5, 117.5 ],
+									"midpoints" : [ 211.5, 117.5, 16.5, 117.5 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -982,15 +954,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-17", 0 ]
 								}
 
 							}
@@ -1032,7 +995,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
+									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-22", 0 ]
@@ -1062,7 +1025,7 @@
 									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 339.0, 123.0, 16.5, 123.0 ],
+									"midpoints" : [ 339.0, 117.5, 16.5, 117.5 ],
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -1081,6 +1044,7 @@
 									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 251.5, 117.5, 16.5, 117.5 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1174,20 +1138,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 617.0, 138.0, 20.0 ],
 					"text" : "udpsend localhost 1234"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "address",
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.0, 657.0, 373.0, 20.0 ]
 				}
 
 			}
@@ -1324,7 +1274,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 311.5, 183.0, 192.0, 183.0, 192.0, 138.0, 168.0, 138.0, 168.0, 129.0, 25.5, 129.0 ],
+					"midpoints" : [ 341.0, 183.0, 192.0, 183.0, 192.0, 138.0, 168.0, 138.0, 168.0, 129.0, 25.5, 129.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1534,15 +1484,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
