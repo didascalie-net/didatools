@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 252.0, 364.0, 679.0, 466.0 ],
@@ -62,8 +63,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 402.0, 48.0, 147.0, 20.0 ],
-					"text" : "jcom.view @type network"
+					"patching_rect" : [ 402.0, 48.0, 63.0, 20.0 ],
+					"text" : "jcom.view"
 				}
 
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 30.0, 59.0, 1155.0, 295.0 ],
@@ -53,8 +54,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 192.0, 459.0, 373.0, 168.0 ],
@@ -113,7 +115,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 16.0, 54.0, 100.0, 20.0 ],
+									"patching_rect" : [ 16.0, 54.0, 78.0, 20.0 ],
 									"text" : "jcom.receive"
 								}
 
@@ -171,8 +173,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 371.0, 322.0 ],
@@ -551,8 +554,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 991.0, 51.0, 689.0, 345.0 ],
@@ -882,8 +886,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 788.0, 458.0, 589.0, 390.0 ],
@@ -905,6 +910,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -925,7 +931,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 259.0, 197.0, 20.0, 20.0 ]
+									"patching_rect" : [ 249.0, 181.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -938,7 +944,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 259.0, 222.0, 165.0, 20.0 ],
+									"patching_rect" : [ 249.0, 206.0, 165.0, 20.0 ],
 									"text" : "jcom.send /udpreceiver.1:init"
 								}
 
@@ -953,7 +959,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 179.0, 83.0, 401.0, 39.0 ],
+									"patching_rect" : [ 179.0, 83.0, 401.0, 38.0 ],
 									"text" : "After initialisation process, the preset is recall if it exists.\ne.g. : udpreceiver has a default-preset with sw:1 & port:33333"
 								}
 
@@ -971,8 +977,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1018.0, 100.0, 355.0, 201.0 ],
@@ -1326,7 +1333,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 39.0, 401.0, 39.0 ],
+									"patching_rect" : [ 15.0, 39.0, 401.0, 38.0 ],
 									"text" : "After initialisation process, the preset is recall if it exists.\ne.g. : udpreceiver has a default-preset with sw:1 & port:33333"
 								}
 
@@ -1515,8 +1522,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 678.0, 44.0, 693.0, 661.0 ],
@@ -1860,7 +1868,7 @@
 									"fontsize" : 12.0,
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 									"id" : "obj-1",
-									"items" : [ "bang", ",", "external", ",", "model", ",", "model/address", ",", "model/class", ",", "model/documentation", ",", "model/documentation/generate", ",", "model/edit", ",", "model/help", ",", "model/internals", ",", "model/reference", ",", "preset", ",", "preset/interpolate", ",", "preset/mix", ",", "preset/order", ",", "preset/read", ",", "preset/read/again", ",", "preset/recall", ",", "preset/remove", ",", "preset/store", ",", "preset/write", ",", "preset/write/again", ",", "stop", ",", "stop/on_next", ",", "sw", ",", "time", ",", "time/max", ",", "time/min", ",", "trans", ",", "trans/max", ",", "trans/min", ",", "val", ",", "val/max", ",", "val/min" ],
+									"items" : [ "bang", ",", "external", ",", "model", ",", "model/address", ",", "model/class", ",", "model/documentation", ",", "model/documentation/generate", ",", "model/edit", ",", "model/help", ",", "model/open", ",", "model/reference", ",", "preset", ",", "preset/interpolate", ",", "preset/mix", ",", "preset/order", ",", "preset/read", ",", "preset/read/again", ",", "preset/recall", ",", "preset/remove", ",", "preset/store", ",", "preset/write", ",", "preset/write/again", ",", "stop", ",", "stop/on_next", ",", "sw", ",", "time", ",", "time/max", ",", "time/min", ",", "trans", ",", "trans/max", ",", "trans/min", ",", "val", ",", "val/max", ",", "val/min" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2651,92 +2659,92 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "random.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/random",
-				"patcherrelativepath" : "../m8-control/modules/random",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/modules/random",
+				"patcherrelativepath" : "./modules/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "random.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/random",
-				"patcherrelativepath" : "../m8-control/modules/random",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/modules/random",
+				"patcherrelativepath" : "./modules/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randtransf.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randomfR.mxt",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
-				"type" : "TEXT",
+				"name" : "randomfR.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "randomR.mxt",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
-				"type" : "TEXT",
+				"name" : "randomR.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minmaxi.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "linecurv.mxt",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
-				"type" : "TEXT",
+				"name" : "linecurv.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "scalecurv.mxt",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
-				"type" : "TEXT",
+				"name" : "scalecurv.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "minmaxf.mxt",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
-				"type" : "TEXT",
+				"name" : "minmaxf.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "explinlog.mxt",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
-				"type" : "TEXT",
+				"name" : "explinlog.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tm-sw.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "../m8-control/lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "udpreceiver.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
-				"patcherrelativepath" : "../m8-control/modules/osc",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/modules/osc",
+				"patcherrelativepath" : "./modules/osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "udpsender.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/m8-control/modules/osc",
-				"patcherrelativepath" : "../m8-control/modules/osc",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/modules/osc",
+				"patcherrelativepath" : "./modules/osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

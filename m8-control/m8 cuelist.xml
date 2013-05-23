@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<jamoma version="0.6" xmlns:xsi="'http://www.w3.org/2001/XMLSchema-instance'" xsi:schemaLocation="'http://jamoma.org/ file:jamoma.xsd'">
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
  <cue name="Init">
-  <flag name="description"></flag>
+  <flag name="description">"initialisation du Flan"</flag>
   <!---->
   <script address="oscsend.1">
    <command address="sw">1</command>
@@ -17,8 +17,8 @@
    <command address="print">0</command>
   </script>
  </cue>
- <cue name="2013-01-27 18:05:51">
-  <flag name="description"></flag>
+ <cue name="rotate 3D">
+  <flag name="description">"c'est tout plat"</flag>
   <!---->
   <script address="modul8.1">
    <command address="name">129</command>
@@ -28,7 +28,7 @@
    <command address="loop">0</command>
    <command address="sw">1</command>
    <script address="color">
-    <command address="alpha">0.500000</command>
+    <command address="alpha">1</command>
     <command address="blue">1</command>
     <command address="red">1</command>
     <command address="green">1</command>
@@ -51,8 +51,8 @@
    <command address="scratch">0</command>
   </script>
  </cue>
- <cue name="2013-01-27 18:08:32">
-  <flag name="description"></flag>
+ <cue name="flat">
+  <flag name="description">"tournicoti tournicota"</flag>
   <!---->
   <script address="modul8.1">
    <command address="name">129</command>

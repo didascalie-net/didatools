@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 324.0, 72.0, 719.0, 477.0 ],
@@ -202,13 +203,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-62",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 357.0, 271.5, 33.0 ],
-					"text" : "jcom.model @type control @description \"receive messages to a network using UDP\""
+					"patching_rect" : [ 240.0, 357.0, 388.0, 20.0 ],
+					"text" : "jcom.model @description \"receive messages to a network using UDP\""
 				}
 
 			}

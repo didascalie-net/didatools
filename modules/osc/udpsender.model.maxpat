@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 139.0, 58.0, 924.0, 294.0 ],
@@ -51,20 +52,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 421.0, 206.0, 155.0, 17.0 ],
 					"text" : "print #1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 421.0, 179.0, 67.0, 17.0 ],
-					"text" : "gate"
 				}
 
 			}
@@ -136,8 +123,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 81.0, 171.0, 265.0, 33.0 ],
-					"text" : "jcom.model @type control @description \"Send messages to a network using UDP\""
+					"patching_rect" : [ 81.0, 171.0, 207.0, 33.0 ],
+					"text" : "jcom.model @description \"Send messages to a network using UDP\""
 				}
 
 			}
@@ -329,6 +316,20 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.0, 138.0, 90.0, 17.0 ],
 					"text" : "udpsend 0.0.0.0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 421.0, 179.0, 67.0, 17.0 ],
+					"text" : "gate"
 				}
 
 			}
