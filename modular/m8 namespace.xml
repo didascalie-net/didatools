@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+	<application author="Renaud Rubiano" version="v1" name="m8" type="proxy">
+		<!--"a layer model"-->
+		<layer.1 object="Container" tag="model" priority="0">
+			<alpha object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="1.000"/>
+			<media object="Data" service="parameter" type="decimal" rangeBounds="0 132" priority="1" valueDefault="129" />
+			<scale object="Container" priority="0">
+				<uniform object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.5" />
+				<x object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+				<y object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+				<z object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+			</scale>
+			<rotate object="Container" priority="0">
+				<x object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+				<y object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+				<z object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+			</rotate>
+			<pos object="Container" priority="0">
+				<x object="Data" service="parameter" type="decimal" priority="1" valueDefault="0.000"/>
+				<y object="Data" service="parameter" type="decimal" priority="1" valueDefault="0.000"/>
+			</pos>
+			<color object="Container" priority="0">
+				<red object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="1.000"/>
+				<green object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="1.000"/>
+				<blue object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="1.000"/>
+				<additive object="Container" priority="0">
+					<red object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+					<green object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+					<blue object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+				</additive>
+			</color>
+			<direction object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0"/>
+			<rate object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.25"/>
+			<sw object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+			<scratch object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+			<entrypoint object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+			<loop object="Container" priority="0">
+				<in object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="0.000"/>
+				<out object="Data" service="parameter" type="decimal" rangeBounds="0 1" priority="1" valueDefault="1.000"/>
+				<mode object="Data" service="parameter" type="decimal"  rangeBounds="0 2" priority="1" valueDefault="0.000"/>
+			</loop>
+		</layer.1>
+	</application>
+</jamoma>
