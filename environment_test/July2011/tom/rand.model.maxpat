@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 11.0, 88.0, 893.0, 431.0 ],
@@ -133,7 +134,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 155.0, 230.0, 51.0, 19.0 ],
 					"text" : "jcom.init"
 				}
@@ -149,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 578.0, 197.0, 105.0, 30.0 ],
+					"patching_rect" : [ 578.0, 197.0, 105.0, 29.0 ],
 					"text" : ";\n#1/hub content"
 				}
 
@@ -251,8 +252,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 11.0, 64.0, 291.0, 376.0 ],
@@ -683,7 +685,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 242.0, 270.0, 541.0, 20.0 ],
-					"text" : "jcom.model @type control @description \"generates random numbers between 0 and 1\" @priority 10"
+					"text" : "jcom.model @description \"generates random numbers between 0 and 1\" @priority 10"
 				}
 
 			}

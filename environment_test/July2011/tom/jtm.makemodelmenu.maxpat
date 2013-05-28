@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 519.0, 404.0 ],
@@ -105,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 70.0, 153.0, 79.0, 20.0 ],
+					"patching_rect" : [ 50.5, 149.0, 79.0, 20.0 ],
 					"text" : "route symbol"
 				}
 
@@ -133,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 92.0, 55.0, 18.0 ],
+					"patching_rect" : [ 101.333336, 92.0, 55.0, 18.0 ],
 					"text" : "sort -1 0"
 				}
 
@@ -147,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 70.0, 126.0, 59.5, 20.0 ],
+					"patching_rect" : [ 37.0, 125.0, 59.5, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -166,8 +167,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 153.0, 92.0, 330.0, 20.0 ],
-					"text" : "jcom.namespace @address / @format coll @output model"
+					"patching_rect" : [ 165.666672, 92.0, 330.0, 20.0 ],
+					"text" : "jcom.namespace @address / @format coll @filter/list model"
 				}
 
 			}

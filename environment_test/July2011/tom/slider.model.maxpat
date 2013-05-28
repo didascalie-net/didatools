@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 174.0, 68.0, 937.0, 431.0 ],
+		"rect" : [ 22.0, 333.0, 937.0, 431.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -162,7 +163,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 102.0, 186.0, 51.0, 19.0 ],
 					"text" : "jcom.init"
 				}
@@ -178,7 +179,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 731.0, 99.0, 107.0, 30.0 ],
+					"patching_rect" : [ 731.0, 99.0, 107.0, 29.0 ],
 					"text" : ";\n#1/hub content"
 				}
 
@@ -266,8 +267,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 11.0, 64.0, 291.0, 376.0 ],
@@ -614,7 +616,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 214.0, 184.0, 380.0, 20.0 ],
-					"text" : "jcom.model @type control @description \"slider controler\" @priority 10"
+					"text" : "jcom.model @description \"slider controler\" @priority 10"
 				}
 
 			}
@@ -628,7 +630,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.0, 340.0, 374.0, 19.0 ],
+					"patching_rect" : [ 61.0, 340.0, 382.0, 19.0 ],
 					"text" : "jcom.return val @type decimal @description \"slider controller output value\"",
 					"varname" : "val"
 				}

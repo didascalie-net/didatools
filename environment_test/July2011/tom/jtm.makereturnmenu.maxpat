@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 626.0, 673.0 ],
@@ -35,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "clear" ],
-					"patching_rect" : [ 11.0, 66.0, 43.0, 20.0 ],
+					"patching_rect" : [ 26.0, 81.0, 43.0, 20.0 ],
 					"text" : "t clear"
 				}
 
@@ -49,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 40.0, 67.0, 20.0 ],
+					"patching_rect" : [ 26.0, 55.0, 67.0, 20.0 ],
 					"text" : "route clear"
 				}
 
@@ -63,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 342.0, 232.0, 32.5, 20.0 ],
+					"patching_rect" : [ 357.0, 247.0, 32.5, 20.0 ],
 					"text" : "|| 0"
 				}
 
@@ -77,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "int" ],
-					"patching_rect" : [ 366.0, 204.0, 95.0, 20.0 ],
+					"patching_rect" : [ 381.0, 219.0, 95.0, 20.0 ],
 					"text" : "contains preset/"
 				}
 
@@ -91,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.0, 591.0, 98.0, 20.0 ],
+					"patching_rect" : [ 218.0, 606.0, 98.0, 20.0 ],
 					"text" : "prepend append"
 				}
 
@@ -105,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "dump", "bang", "clear" ],
-					"patching_rect" : [ 59.0, 412.0, 134.0, 20.0 ],
+					"patching_rect" : [ 74.0, 427.0, 134.0, 20.0 ],
 					"text" : "t dump b clear"
 				}
 
@@ -119,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 203.0, 568.0, 161.0, 20.0 ],
+					"patching_rect" : [ 218.0, 583.0, 161.0, 20.0 ],
 					"text" : "combine / name @triggers 1"
 				}
 
@@ -133,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 203.0, 541.0, 57.0, 20.0 ],
+					"patching_rect" : [ 231.5, 558.0, 57.0, 20.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -147,7 +148,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 436.0, 55.0, 18.0 ],
+					"patching_rect" : [ 132.0, 451.0, 55.0, 18.0 ],
 					"text" : "sort -1 1"
 				}
 
@@ -161,7 +162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "clear" ],
-					"patching_rect" : [ 203.0, 178.0, 43.0, 20.0 ],
+					"patching_rect" : [ 218.0, 193.0, 43.0, 20.0 ],
 					"text" : "t clear"
 				}
 
@@ -175,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 203.0, 153.0, 67.0, 20.0 ],
+					"patching_rect" : [ 218.0, 168.0, 67.0, 20.0 ],
 					"text" : "route clear"
 				}
 
@@ -190,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 332.0, 438.0, 101.0, 20.0 ],
+					"patching_rect" : [ 347.0, 453.0, 101.0, 20.0 ],
 					"text" : "prepend address"
 				}
 
@@ -205,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 318.0, 415.0, 33.0, 20.0 ],
+					"patching_rect" : [ 333.0, 430.0, 33.0, 20.0 ],
 					"text" : "t b s"
 				}
 
@@ -219,7 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 236.0, 491.0, 41.0, 20.0 ],
+					"patching_rect" : [ 251.0, 506.0, 41.0, 20.0 ],
 					"text" : "zl join"
 				}
 
@@ -234,7 +235,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 318.0, 392.0, 244.0, 20.0 ],
+					"patching_rect" : [ 333.0, 407.0, 244.0, 20.0 ],
 					"text" : "combine model / param :priority @triggers 2"
 				}
 
@@ -248,7 +249,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 59.0, 66.0, 278.0, 20.0 ],
+					"patching_rect" : [ 74.0, 81.0, 278.0, 20.0 ],
 					"text" : "t b s s"
 				}
 
@@ -262,7 +263,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.0, 97.0, 116.0, 18.0 ],
+					"patching_rect" : [ 218.0, 112.0, 116.0, 18.0 ],
 					"text" : "address $1, explore"
 				}
 
@@ -276,7 +277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 318.0, 462.0, 78.0, 20.0 ],
+					"patching_rect" : [ 333.0, 477.0, 78.0, 20.0 ],
 					"text" : "jcom.receive"
 				}
 
@@ -290,7 +291,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 341.0, 338.0, 68.0, 20.0 ],
+					"patching_rect" : [ 356.0, 353.0, 68.0, 20.0 ],
 					"text" : "route store"
 				}
 
@@ -304,7 +305,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 341.0, 363.0, 57.0, 20.0 ],
+					"patching_rect" : [ 356.0, 378.0, 57.0, 20.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -318,7 +319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 304.0, 34.0, 20.0 ],
+					"patching_rect" : [ 251.0, 319.0, 34.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -332,7 +333,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 342.0, 259.0, 35.0, 20.0 ],
+					"patching_rect" : [ 357.0, 274.0, 35.0, 20.0 ],
 					"text" : "== 0"
 				}
 
@@ -346,7 +347,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "int" ],
-					"patching_rect" : [ 266.0, 204.0, 95.0, 20.0 ],
+					"patching_rect" : [ 281.0, 219.0, 95.0, 20.0 ],
 					"text" : "contains model/"
 				}
 
@@ -360,7 +361,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 251.0, 178.0, 118.0, 20.0 ],
+					"patching_rect" : [ 266.0, 193.0, 118.0, 20.0 ],
 					"text" : "t l l l"
 				}
 
@@ -374,7 +375,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 203.0, 517.0, 59.5, 20.0 ],
+					"patching_rect" : [ 218.0, 532.0, 59.5, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -393,8 +394,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 203.0, 125.0, 352.0, 20.0 ],
-					"text" : "jcom.namespace @address / @output return @format coll"
+					"patching_rect" : [ 218.0, 142.0, 426.0, 20.0 ],
+					"text" : "jcom.namespace @address / @filter/list return @format coll @sort priority"
 				}
 
 			}
@@ -406,7 +407,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 10.0, 25.0, 25.0 ]
+					"patching_rect" : [ 26.0, 25.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -417,7 +418,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 174.0, 630.0, 25.0, 25.0 ]
+					"patching_rect" : [ 189.0, 645.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -463,7 +464,7 @@
 					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -661,8 +662,8 @@
 					"destination" : [ "obj-69", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 212.5, 564.0, 354.5, 564.0 ],
-					"source" : [ "obj-68", 0 ]
+					"midpoints" : [ 279.0, 579.0, 369.5, 579.0 ],
+					"source" : [ "obj-68", 1 ]
 				}
 
 			}
@@ -752,26 +753,10 @@
 					"destination" : [ "obj-74", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 612.5, 183.5, 612.5 ],
+					"midpoints" : [ 35.5, 627.5, 198.5, 627.5 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "contains.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.namespace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

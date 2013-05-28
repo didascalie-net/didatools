@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 429.0, 44.0, 977.0, 533.0 ],
@@ -285,7 +286,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 696.0, 27.0, 51.0, 19.0 ],
 					"text" : "jcom.init"
 				}
@@ -347,8 +348,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 11.0, 64.0, 291.0, 376.0 ],
@@ -681,7 +683,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 43.0, 491.0, 20.0 ],
-					"text" : "jcom.model @type audio @description \"generates sine tone with freq and vol\" @priority 20"
+					"text" : "jcom.model @description \"generates sine tone with freq and vol\" @priority 20"
 				}
 
 			}

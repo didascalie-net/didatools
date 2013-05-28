@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 1138.0, 648.0 ],
+		"rect" : [ 2.0, 44.0, 1099.0, 547.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,30 +31,269 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-5",
-					"linecount" : 2,
-					"maxclass" : "comment",
+					"id" : "obj-41",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 729.0, 72.0, 353.0, 34.0 ],
-					"presentation_rect" : [ 608.0, 564.0, 0.0, 0.0 ],
-					"text" : "Update done by Renaud Rubiano  for Jamoma 0.6 last changes\n16 november 2012"
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 50.0, 100.0, 36.0, 20.0 ],
+									"text" : "sel 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 433.0, 402.0, 141.0, 20.0 ],
+									"text" : "jcom.remote /sine.1/init"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 452.0, 372.0, 141.0, 20.0 ],
+									"text" : "jcom.remote /rand.2/init"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 466.0, 343.0, 141.0, 20.0 ],
+									"text" : "jcom.remote /rand.1/init"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 488.0, 288.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 488.0, 316.0, 141.0, 20.0 ],
+									"text" : "jcom.remote /slider.1/init"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"linecount" : 4,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 263.0, 239.0, 58.0 ],
+									"text" : ";\rpolymap 0 /rand.1/val/map.1;\rpolymap 0 /slider.1/val/map.1;\rpolymap 0 /rand.2/val/map.1;\r"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-52",
+									"linecount" : 8,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 121.0, 518.0, 125.0 ],
+									"text" : ";\r/rand.1/sw 1;\r/rand.2/sw 1;\r/sine.1/sw 1;\r/slider.1/sw 1;\rpolymap 1 /rand.1/val/map.1 /rand.1/val /sine.1/freq 0. 1. 100 5000 exponential base 2.718282;\rpolymap 1 /slider.1/val/map.1 /slider.1/val /sine.1/vol 0. 1 0 1 exponential base 2.718282;\rpolymap 1 /rand.2/val/map.1 /rand.2/val /slider.1/slider 0. 1. 0 1 exponential base 2.718282;\r"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-40",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-39", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-40", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 13.0, 449.0, 157.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p mapping_command_lines"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-36",
-					"linecount" : 3,
-					"maxclass" : "comment",
+					"fontsize" : 24.0,
+					"id" : "obj-38",
+					"maxclass" : "textbutton",
+					"mode" : 1,
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 782.0, 25.0, 173.0, 47.0 ],
-					"text" : "patch by Tom Mays during Jamoma/Interop workshop in Aubervilliers 11-15 juillet 2011"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 13.0, 405.0, 211.0, 33.0 ],
+					"text" : "MAPPING IS OFF",
+					"texton" : "MAPPING IS ON"
 				}
 
 			}
@@ -201,36 +441,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-16",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 560.0, 173.0, 45.0 ],
-					"text" : ";\rpolymap 0 /rand.1/val/map.1;\rpolymap 0 /slider.1/val/map.1;\r"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-52",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 505.0, 518.0, 45.0 ],
-					"text" : ";\rpolymap 1 /rand.1/val/map.1 /rand.1/val /sine.1/freq 0. 1. 100 5000 exponential base 2.718282;\rpolymap 1 /slider.1/val/map.1 /slider.1/val /sine.1/vol 0. 1 0 1 exponential base 2.718282"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -278,8 +488,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 326.0, 59.0, 1081.0, 696.0 ],
@@ -562,7 +773,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 521.0, 344.0, 520.0, 88.0 ],
+									"patching_rect" : [ 521.0, 344.0, 520.0, 87.0 ],
 									"text" : "if starts with 1 (enable), check to see if exists in coll;\n--- if yes, use target to send list to poly~;\n--- if no, send to poly~ and let poly~ decide voice number, then write to coll;\nif starts with 0 (disable), check to see if exists in coll;\n--- if yes, use target to send list to poly~;\n--- if no, do nothing."
 								}
 
@@ -770,7 +981,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 521.0, 252.0, 520.0, 88.0 ],
+									"patching_rect" : [ 521.0, 252.0, 520.0, 87.0 ],
 									"text" : "Questions about polymap;\nShould there be a central mapper or should all mappings happen at the \"model\" level?;\nIf there is a central mapper, should it work like \"goto:return\" or with running state polyphony?;\nIf running state polyphony, how do you differentiate between different mappings?;\nHow do you differentiate between two mappings of the same controler to the same parameter?;\n--- include mapping module name in list?;"
 								}
 
@@ -1322,7 +1533,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 571.0, 58.0, 47.0, 20.0 ],
+					"patching_rect" : [ 857.0, 336.0, 47.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1352,11 +1563,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 755.0, 44.0, 508.0, 343.0 ],
+						"rect" : [ 770.0, 348.0, 508.0, 343.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1450,7 +1662,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-91",
-									"items" : [ "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0" ],
+									"items" : [ "/val", ",", "/trig" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1479,7 +1691,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-78",
-									"items" : [ "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0" ],
+									"items" : "/init",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1508,7 +1720,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-1",
-									"items" : [ "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0", ",", "/0" ],
+									"items" : [ "/metrotime", ",", "/sw" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1534,7 +1746,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-14",
-									"items" : [ "/slider.1/val", ",", "/slider.1/sw", ",", "/slider.1/slider", ",", "/slider.1/preset/write", ",", "/slider.1/preset/store", ",", "/slider.1/preset/remove", ",", "/slider.1/preset/recall", ",", "/slider.1/preset/read", ",", "/slider.1/preset/order", ",", "/slider.1/preset/mix", ",", "/slider.1/preset/interpolate", ",", "/slider.1/preset", ",", "/slider.1/model/reference", ",", "/slider.1/model/mute", ",", "/slider.1/model/internals", ",", "/slider.1/model/help", ",", "/slider.1/model/documentation/generate", ",", "/slider.1/model/documentation", ",", "/slider.1/model/class", ",", "/slider.1/model/address", ",", "/slider.1/model", ",", "/slider.1/init", ",", "/slider.1", ",", "/sine.1/vol", ",", "/sine.1/sw", ",", "/sine.1/preset/write", ",", "/sine.1/preset/store", ",", "/sine.1/preset/remove", ",", "/sine.1/preset/recall", ",", "/sine.1/preset/read", ",", "/sine.1/preset/order", ",", "/sine.1/preset/mix", ",", "/sine.1/preset/interpolate", ",", "/sine.1/preset", ",", "/sine.1/model/reference", ",", "/sine.1/model/mute", ",", "/sine.1/model/internals", ",", "/sine.1/model/help", ",", "/sine.1/model/documentation/generate", ",", "/sine.1/model/documentation", ",", "/sine.1/model/class", ",", "/sine.1/model/address", ",", "/sine.1/model", ",", "/sine.1/init", ",", "/sine.1/freq", ",", "/sine.1", ",", "/rand.2/val", ",", "/rand.2/trig", ",", "/rand.2/sw", ",", "/rand.2/preset/write", ",", "/rand.2/preset/store", ",", "/rand.2/preset/remove", ",", "/rand.2/preset/recall", ",", "/rand.2/preset/read", ",", "/rand.2/preset/order", ",", "/rand.2/preset/mix", ",", "/rand.2/preset/interpolate", ",", "/rand.2/preset", ",", "/rand.2/model/reference", ",", "/rand.2/model/mute", ",", "/rand.2/model/internals", ",", "/rand.2/model/help", ",", "/rand.2/model/documentation/generate", ",", "/rand.2/model/documentation", ",", "/rand.2/model/class", ",", "/rand.2/model/address", ",", "/rand.2/model", ",", "/rand.2/metrotime", ",", "/rand.2/init", ",", "/rand.2", ",", "/rand.1/val", ",", "/rand.1/trig", ",", "/rand.1/sw", ",", "/rand.1/preset/write", ",", "/rand.1/preset/store", ",", "/rand.1/preset/remove", ",", "/rand.1/preset/recall", ",", "/rand.1/preset/read", ",", "/rand.1/preset/order", ",", "/rand.1/preset/mix", ",", "/rand.1/preset/interpolate", ",", "/rand.1/preset", ",", "/rand.1/model/reference", ",", "/rand.1/model/mute", ",", "/rand.1/model/internals", ",", "/rand.1/model/help", ",", "/rand.1/model/documentation/generate", ",", "/rand.1/model/documentation", ",", "/rand.1/model/class", ",", "/rand.1/model/address", ",", "/rand.1/model", ",", "/rand.1/metrotime", ",", "/rand.1/init", ",", "/rand.1" ],
+									"items" : [ "/slider.1", ",", "/sine.1", ",", "/rand.2", ",", "/rand.1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1684,7 +1896,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 571.0, 31.0, 95.0, 20.0 ],
+					"patching_rect" : [ 857.0, 309.0, 95.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1712,8 +1924,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 608.0, 373.0, 344.0, 168.0 ],
-					"text" : "Sur Jamoa0.6 pour Max :\n[7/12/11 10:28:35 AM] Théo: les objects utiles et à tester sont :\n[7/12/11 10:28:45 AM] Théo: jcom.parameter(Array)\n[7/12/11 10:28:50 AM] Théo: jcom.message(Array)\n[7/12/11 10:28:57 AM] Théo: jcom.return(Array)\n[7/12/11 10:29:00 AM] Théo: jcom.hub\n[7/12/11 10:29:06 AM] Théo: jcom.preset\n[7/12/11 10:29:11 AM] Théo: jcom.namespace\n[7/12/11 10:29:17 AM] Théo: jcom.map\n[7/12/11 10:30:20 AM] Théo: jcom.cuemanager\n[7/12/11 10:30:32 AM] Théo: jcom.send\n[7/12/11 10:30:35 AM] Théo: jcom.receive"
+					"patching_rect" : [ 608.0, 373.0, 344.0, 167.0 ],
+					"text" : "Sur Jamoa0.6 pour Max :\n[7/12/11 10:28:35 AM] Théo: les objects utiles et à tester sont :\n[7/12/11 10:28:45 AM] Théo: jcom.parameter(Array)\n[7/12/11 10:28:50 AM] Théo: jcom.message(Array)\n[7/12/11 10:28:57 AM] Théo: jcom.return(Array)\n[7/12/11 10:29:06 AM] Théo: jcom.preset\n[7/12/11 10:29:11 AM] Théo: jcom.namespace\n[7/12/11 10:29:17 AM] Théo: jcom.map\n[7/12/11 10:30:20 AM] Théo: jcom.cuemanager\n[7/12/11 10:30:32 AM] Théo: jcom.send\n[7/12/11 10:30:35 AM] Théo: jcom.receive\n+ jcom.cue + jcom.modular"
 				}
 
 			}
@@ -1864,6 +2076,52 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-42",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 476.0, 86.0, 353.0, 33.0 ],
+					"presentation_rect" : [ 729.0, 103.0, 0.0, 0.0 ],
+					"text" : "Update done by Renaud Rubiano  for Jamoma 0.6 last changes\n28 mai 2013"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 476.0, 53.0, 353.0, 33.0 ],
+					"text" : "Update done by Renaud Rubiano  for Jamoma 0.6 last changes\n16 november 2012"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-36",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 476.0, 20.0, 379.0, 33.0 ],
+					"text" : "patch by Tom Mays during Jamoma/Interop workshop in Aubervilliers\n11-15 juillet 2011"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1999,6 +2257,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2018,92 +2285,92 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rand.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "contains.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rand.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtm-view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtm.makeparametermenu.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtm.makemessagemenu.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtm.makereturnmenu.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtm.makemodelmenu.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtm.polymap.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider.view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider.model.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

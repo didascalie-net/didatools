@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 452.0, 281.0, 649.0, 356.0 ],
@@ -200,8 +201,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 366.0, 49.0, 134.0, 20.0 ],
-					"text" : "jcom.view @type audio"
+					"patching_rect" : [ 366.0, 48.0, 63.0, 20.0 ],
+					"text" : "jcom.view"
 				}
 
 			}
@@ -437,10 +438,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtm-view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.view.mxo",

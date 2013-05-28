@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 637.0, 197.0, 649.0, 356.0 ],
@@ -217,8 +218,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 366.0, 49.0, 141.0, 20.0 ],
-					"text" : "jcom.view @type control"
+					"patching_rect" : [ 366.0, 49.0, 63.0, 20.0 ],
+					"text" : "jcom.view"
 				}
 
 			}
@@ -429,8 +430,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtm-view.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/environment_test/July2011/tom",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 626.0, 673.0 ],
+		"rect" : [ 25.0, 69.0, 707.0, 673.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -133,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 203.0, 541.0, 57.0, 20.0 ],
+					"patching_rect" : [ 216.5, 543.0, 57.0, 20.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -393,8 +394,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 203.0, 127.0, 375.0, 20.0 ],
-					"text" : "jcom.namespace @address / @output parameter @format coll"
+					"patching_rect" : [ 203.0, 127.0, 426.0, 20.0 ],
+					"text" : "jcom.namespace @address / @filter/list parameter @format coll @sort priority"
 				}
 
 			}
@@ -463,7 +464,7 @@
 					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -661,8 +662,8 @@
 					"destination" : [ "obj-69", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 212.5, 564.0, 354.5, 564.0 ],
-					"source" : [ "obj-68", 0 ]
+					"midpoints" : [ 264.0, 564.0, 354.5, 564.0 ],
+					"source" : [ "obj-68", 1 ]
 				}
 
 			}
@@ -756,22 +757,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "contains.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/didatools/environment_test/July2011/tom",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.namespace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
