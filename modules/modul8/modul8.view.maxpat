@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64"
 		}
 ,
@@ -32,6 +32,34 @@
 				"box" : 				{
 					"fontname" : "Helvetica Neue Light",
 					"fontsize" : 13.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 175.0, 133.0, 58.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 13.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 175.0, 100.0, 75.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light",
+					"fontsize" : 13.0,
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -42,7 +70,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64"
 						}
 ,
@@ -568,7 +596,7 @@
 					"patching_rect" : [ 218.0, 91.5, 150.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 400.0, 291.0, 150.0, 22.0 ],
-					"text" : "scale/uniform"
+					"text" : "color/red"
 				}
 
 			}
@@ -966,8 +994,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 26.5, 90.0, 100.0, 22.0 ],
-					"text" : "jcom.remote sw"
+					"patching_rect" : [ 26.5, 90.0, 109.0, 22.0 ],
+					"text" : "jcom.remote hide"
 				}
 
 			}
@@ -1756,6 +1784,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1869,6 +1906,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 404.5, 113.0, 380.0, 113.0, 380.0, 11.0, 404.5, 11.0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
