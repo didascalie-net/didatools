@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 559.0, 455.0, 418.0, 240.0 ],
+		"rect" : [ 1156.0, 44.0, 420.0, 367.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,8 +50,8 @@
 					"name" : "cue.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 60.0, 300.0, 175.0 ],
-					"presentation_rect" : [ 45.0, 45.0, 300.0, 175.0 ]
+					"patching_rect" : [ 16.0, 56.0, 300.0, 280.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 300.0, 280.0 ]
 				}
 
 			}
@@ -117,11 +117,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "jcom.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "jcom.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
