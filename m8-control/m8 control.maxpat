@@ -37,7 +37,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 9.5, 600.0, 315.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 7.5, 600.0, 315.0 ],
+					"presentation_rect" : [ 5.5, 7.5, 600.0, 315.0 ],
 					"varname" : "deg2"
 				}
 
