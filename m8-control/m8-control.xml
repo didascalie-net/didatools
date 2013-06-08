@@ -37,7 +37,7 @@
   </script>
  </cue>
  <cue name="OFF">
-  <flag name="description">"Mire is off"</flag>
+  <flag name="description">Mire is off</flag>
   <!---->
   <script address="m8:/layer.1">
    <command address="entrypoint">0.000000</command>
@@ -47,6 +47,41 @@
    <command address="rate">0.250000</command>
    <command address="media">129</command>
    <command address="alpha">0.000000</command>
+   <!---->
+   <script address="scale">
+    <command address="uniform">0.500000</command>
+   </script>
+   <!---->
+   <script address="loop">
+    <command address="mode">0.000000</command>
+    <command address="out">1.000000</command>
+    <command address="in">0.000000</command>
+   </script>
+   <!---->
+   <script address="color">
+    <command address="blue">1.000000</command>
+    <command address="green">1.000000</command>
+    <command address="red">1.000000</command>
+    <!---->
+    <script address="additive">
+     <command address="blue">0.000000</command>
+     <command address="green">0.000000</command>
+     <command address="red">0.000000</command>
+    </script>
+   </script>
+  </script>
+ </cue>
+ <cue name="THIRD">
+  <flag name="description"></flag>
+  <!---->
+  <script address="m8:/layer.1">
+   <command address="entrypoint">0.000000</command>
+   <command address="scratch">0.000000</command>
+   <command address="hide">0</command>
+   <command address="direction">0</command>
+   <command address="rate">0.250000</command>
+   <command address="media">129</command>
+   <command address="alpha">1.000000</command>
    <!---->
    <script address="scale">
     <command address="uniform">0.500000</command>
