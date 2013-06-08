@@ -175,7 +175,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 55.5, 239.0, 186.0, 45.0 ],
+									"patching_rect" : [ 55.5, 239.0, 188.0, 45.0 ],
 									"text" : "protocol/setup ip 127.0.0.1, protocol/setup port 33333 22222, name, protocol/setup, dump",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1498,7 +1498,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 670.0, 499.0, 139.0, 20.0 ],
-					"prefix" : "m8://layer.1/",
+					"prefix" : "m8://layer.2/",
 					"presentation" : 1,
 					"presentation_rect" : [ 92.0, 103.609924, 216.0, 20.0 ]
 				}
@@ -1519,7 +1519,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 520.0, 499.0, 139.0, 20.0 ],
-					"prefix" : "m8://layer.1/",
+					"prefix" : "m8://layer.2/",
 					"presentation" : 1,
 					"presentation_rect" : [ 92.0, 80.20993, 216.0, 20.0 ]
 				}
@@ -1533,14 +1533,14 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-18",
-					"items" : [ "scale/y", ",", "scale/z", ",", "rotate/y", ",", "loop/in", ",", "pos/y", ",", "color/additive/blue", ",", "loop/mode", ",", "media", ",", "rotate/x", ",", "color/additive/red", ",", "color/additive/green", ",", "rotate/z", ",", "alpha", ",", "rate", ",", "color/green", ",", "color/blue", ",", "direction", ",", "color/red", ",", "sw", ",", "entrypoint", ",", "scale/uniform", ",", "loop/out", ",", "scale/x", ",", "pos/x", ",", "scratch" ],
+					"items" : [ "pos/x", ",", "pos/y", ",", "scale/x", ",", "rotate/x", ",", "rotate/y", ",", "rotate/z", ",", "color/additive/red", ",", "scale/y", ",", "color/additive/blue", ",", "color/additive/green", ",", "color/red", ",", "color/blue", ",", "color/green", ",", "loop/in", ",", "loop/out", ",", "loop/mode", ",", "alpha", ",", "scale/z", ",", "scratch", ",", "direction", ",", "blend/mode", ",", "media", ",", "hide", ",", "scale/uniform", ",", "rate", ",", "entrypoint" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 361.0, 499.0, 139.0, 20.0 ],
-					"prefix" : "m8://layer.1/",
+					"prefix" : "m8://layer.2/",
 					"presentation" : 1,
 					"presentation_rect" : [ 92.0, 56.809921, 216.0, 20.0 ]
 				}
