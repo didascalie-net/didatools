@@ -522,7 +522,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 256.0, 574.0, 63.0, 20.0 ],
-					"text" : "jcom.map"
+					"text" : "j.map"
 				}
 
 			}

@@ -87,7 +87,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 433.0, 402.0, 141.0, 20.0 ],
-									"text" : "jcom.remote /sine.1/init"
+									"text" : "j.remote /sine.1/init"
 								}
 
 							}
@@ -101,7 +101,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 452.0, 372.0, 141.0, 20.0 ],
-									"text" : "jcom.remote /rand.2/init"
+									"text" : "j.remote /rand.2/init"
 								}
 
 							}
@@ -115,7 +115,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 466.0, 343.0, 141.0, 20.0 ],
-									"text" : "jcom.remote /rand.1/init"
+									"text" : "j.remote /rand.1/init"
 								}
 
 							}
@@ -140,7 +140,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 488.0, 316.0, 141.0, 20.0 ],
-									"text" : "jcom.remote /slider.1/init"
+									"text" : "j.remote /slider.1/init"
 								}
 
 							}
@@ -433,7 +433,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 623.0, 265.0, 59.0, 20.0 ],
-					"text" : "jcom.cue"
+					"text" : "j.cue"
 				}
 
 			}
@@ -1925,7 +1925,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 608.0, 373.0, 344.0, 167.0 ],
-					"text" : "Sur Jamoa0.6 pour Max :\n[7/12/11 10:28:35 AM] Théo: les objects utiles et à tester sont :\n[7/12/11 10:28:45 AM] Théo: jcom.parameter(Array)\n[7/12/11 10:28:50 AM] Théo: jcom.message(Array)\n[7/12/11 10:28:57 AM] Théo: jcom.return(Array)\n[7/12/11 10:29:06 AM] Théo: jcom.preset\n[7/12/11 10:29:11 AM] Théo: jcom.namespace\n[7/12/11 10:29:17 AM] Théo: jcom.map\n[7/12/11 10:30:20 AM] Théo: jcom.cuemanager\n[7/12/11 10:30:32 AM] Théo: jcom.send\n[7/12/11 10:30:35 AM] Théo: jcom.receive\n+ jcom.cue + jcom.modular"
+					"text" : "Sur Jamoa0.6 pour Max :\n[7/12/11 10:28:35 AM] Théo: les objects utiles et à tester sont :\n[7/12/11 10:28:45 AM] Théo: j.parameter(Array)\n[7/12/11 10:28:50 AM] Théo: j.message(Array)\n[7/12/11 10:28:57 AM] Théo: j.return(Array)\n[7/12/11 10:29:06 AM] Théo: j.preset\n[7/12/11 10:29:11 AM] Théo: j.namespace\n[7/12/11 10:29:17 AM] Théo: j.map\n[7/12/11 10:30:20 AM] Théo: j.cuemanager\n[7/12/11 10:30:32 AM] Théo: j.send\n[7/12/11 10:30:35 AM] Théo: j.receive\n+ j.cue + j.modular"
 				}
 
 			}
@@ -2375,55 +2375,55 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.init.mxo",
+				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.preset.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.namespace.mxo",
+				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.map.mxo",
+				"name" : "j.map.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.cue.mxo",
+				"name" : "j.cue.mxo",
 				"type" : "iLaX"
 			}
  ]

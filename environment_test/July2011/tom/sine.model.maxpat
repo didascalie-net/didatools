@@ -148,7 +148,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 278.0, 596.0, 43.0 ],
-					"text" : "jcom.parameter vol @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function exponential @dataspace gain @dataspace/unit linear @priority 3 @description \"oscillator amplitude\"",
+					"text" : "j.parameter vol @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function exponential @dataspace gain @dataspace/unit linear @priority 3 @description \"oscillator amplitude\"",
 					"varname" : "metrotime[3]"
 				}
 
@@ -205,7 +205,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 591.0, 28.0, 67.0, 19.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -230,7 +230,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 779.0, 73.0, 125.0, 20.0 ],
-					"text" : "jcom.send #1:init"
+					"text" : "j.send #1:init"
 				}
 
 			}
@@ -245,7 +245,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 779.0, 23.0, 161.0, 19.0 ],
-					"text" : "jcom.message init @type none",
+					"text" : "j.message init @type none",
 					"varname" : "metrotime[2]"
 				}
 
@@ -288,7 +288,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 696.0, 27.0, 51.0, 19.0 ],
-					"text" : "jcom.init"
+					"text" : "j.init"
 				}
 
 			}
@@ -668,7 +668,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 38.0, 149.0, 541.0, 19.0 ],
-					"text" : "jcom.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
+					"text" : "j.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
 					"varname" : "metrotime[1]"
 				}
 
@@ -683,7 +683,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 43.0, 491.0, 20.0 ],
-					"text" : "jcom.model @description \"generates sine tone with freq and vol\" @priority 20"
+					"text" : "j.model @description \"generates sine tone with freq and vol\" @priority 20"
 				}
 
 			}
@@ -699,7 +699,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 100.0, 201.0, 563.0, 43.0 ],
-					"text" : "jcom.parameter freq @type float @value/default 440 @range/bounds 0. 20000. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function exponential @dataspace pitch @dataspace/unit Hz @priority 2 @description \"oscillator frequency\"",
+					"text" : "j.parameter freq @type float @value/default 440 @range/bounds 0. 20000. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function exponential @dataspace pitch @dataspace/unit Hz @priority 2 @description \"oscillator frequency\"",
 					"varname" : "metrotime"
 				}
 

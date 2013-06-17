@@ -38,7 +38,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 138.0, 202.0, 379.0, 19.0 ],
-					"text" : "jcom.return trig @type none @description \"bang for each new value choice\"",
+					"text" : "j.return trig @type none @description \"bang for each new value choice\"",
 					"varname" : "val[1]"
 				}
 
@@ -53,7 +53,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 753.0, 367.0, 67.0, 19.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -78,7 +78,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 378.0, 125.0, 20.0 ],
-					"text" : "jcom.send #1:init"
+					"text" : "j.send #1:init"
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 520.0, 328.0, 161.0, 19.0 ],
-					"text" : "jcom.message init @type none",
+					"text" : "j.message init @type none",
 					"varname" : "metrotime[2]"
 				}
 
@@ -136,7 +136,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 155.0, 230.0, 51.0, 19.0 ],
-					"text" : "jcom.init"
+					"text" : "j.init"
 				}
 
 			}
@@ -670,7 +670,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 16.0, 35.0, 541.0, 19.0 ],
-					"text" : "jcom.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
+					"text" : "j.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
 					"varname" : "metrotime[1]"
 				}
 
@@ -685,7 +685,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 242.0, 270.0, 541.0, 20.0 ],
-					"text" : "jcom.model @description \"generates random numbers between 0 and 1\" @priority 10"
+					"text" : "j.model @description \"generates random numbers between 0 and 1\" @priority 10"
 				}
 
 			}
@@ -701,7 +701,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 62.0, 85.0, 573.0, 43.0 ],
-					"text" : "jcom.parameter metrotime @type integer @value/default 100 @range/bounds 10. 100000. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace time @dataspace/unit millisecond @priority 2 @description \"metro time for random generator\"",
+					"text" : "j.parameter metrotime @type integer @value/default 100 @range/bounds 10. 100000. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace time @dataspace/unit millisecond @priority 2 @description \"metro time for random generator\"",
 					"varname" : "metrotime"
 				}
 
@@ -717,7 +717,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.0, 372.0, 388.0, 19.0 ],
-					"text" : "jcom.return val @type decimal @description \"random value between 0 and 1\"",
+					"text" : "j.return val @type decimal @description \"random value between 0 and 1\"",
 					"varname" : "val"
 				}
 

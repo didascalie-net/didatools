@@ -53,7 +53,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 92.0, 105.0, 595.0, 31.0 ],
-					"text" : "jcom.parameter slider @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @priority 2 @description \"slider to use as controller\"",
+					"text" : "j.parameter slider @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @priority 2 @description \"slider to use as controller\"",
 					"varname" : "metrotime"
 				}
 
@@ -82,7 +82,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 731.0, 274.0, 67.0, 19.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -107,7 +107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 731.0, 229.0, 127.0, 20.0 ],
-					"text" : "jcom.send #1:init"
+					"text" : "j.send #1:init"
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 731.0, 179.0, 161.0, 19.0 ],
-					"text" : "jcom.message init @type none",
+					"text" : "j.message init @type none",
 					"varname" : "metrotime[2]"
 				}
 
@@ -165,7 +165,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 102.0, 186.0, 51.0, 19.0 ],
-					"text" : "jcom.init"
+					"text" : "j.init"
 				}
 
 			}
@@ -601,7 +601,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 37.0, 62.0, 541.0, 19.0 ],
-					"text" : "jcom.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
+					"text" : "j.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
 					"varname" : "metrotime[1]"
 				}
 
@@ -616,7 +616,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 214.0, 184.0, 380.0, 20.0 ],
-					"text" : "jcom.model @description \"slider controler\" @priority 10"
+					"text" : "j.model @description \"slider controler\" @priority 10"
 				}
 
 			}
@@ -631,7 +631,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 61.0, 340.0, 382.0, 19.0 ],
-					"text" : "jcom.return val @type decimal @description \"slider controller output value\"",
+					"text" : "j.return val @type decimal @description \"slider controller output value\"",
 					"varname" : "val"
 				}
 

@@ -168,7 +168,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 165.666672, 92.0, 330.0, 20.0 ],
-					"text" : "jcom.namespace @address / @format coll @filter/list model"
+					"text" : "j.namespace @address / @format coll @filter/list model"
 				}
 
 			}

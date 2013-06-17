@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 485.0, 112.0, 71.0, 18.0 ],
-					"text" : "jcom.return"
+					"text" : "j.return"
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.0, 135.0, 88.0, 18.0 ],
-					"text" : "jcom.message"
+					"text" : "j.message"
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 392.0, 158.0, 94.0, 18.0 ],
-					"text" : "jcom.parameter"
+					"text" : "j.parameter"
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 181.0, 59.0, 18.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 289.0, 542.0, 78.0, 20.0 ],
-					"text" : "jcom.receive"
+					"text" : "j.receive"
 				}
 
 			}
@@ -465,7 +465,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 174.0, 247.0, 375.0, 20.0 ],
-					"text" : "jcom.namespace @address / @output parameter @format coll"
+					"text" : "j.namespace @address / @output parameter @format coll"
 				}
 
 			}
@@ -890,11 +890,11 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.namespace.mxo",
+				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ]

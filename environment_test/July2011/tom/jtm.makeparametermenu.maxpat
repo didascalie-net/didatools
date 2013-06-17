@@ -278,7 +278,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 318.0, 462.0, 78.0, 20.0 ],
-					"text" : "jcom.receive"
+					"text" : "j.receive"
 				}
 
 			}
@@ -395,7 +395,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 203.0, 127.0, 426.0, 20.0 ],
-					"text" : "jcom.namespace @address / @filter/list parameter @format coll @sort priority"
+					"text" : "j.namespace @address / @filter/list parameter @format coll @sort priority"
 				}
 
 			}

@@ -218,7 +218,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 44.0, 168.0, 189.0, 20.0 ],
-					"text" : "jcom.remote #1"
+					"text" : "j.remote #1"
 				}
 
 			}
@@ -324,7 +324,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
  ]
