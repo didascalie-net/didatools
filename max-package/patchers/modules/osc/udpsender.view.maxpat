@@ -38,7 +38,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 254.0, 236.0, 79.0, 17.0 ],
-					"text" : "jcom.remote print"
+					"text" : "j.remote print"
 				}
 
 			}
@@ -90,7 +90,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 61.5, 24.227539, 83.0, 17.0 ],
-									"text" : "jcom.remote host"
+									"text" : "j.remote host"
 								}
 
 							}
@@ -1294,7 +1294,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 250.0, 334.0, 75.0, 17.0 ],
-					"text" : "jcom.remote sw"
+					"text" : "j.remote sw"
 				}
 
 			}
@@ -1309,7 +1309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 134.0, 179.0, 195.0, 33.0 ],
-					"text" : "maybe this could be done with the selected attribut in jcom.view",
+					"text" : "maybe this could be done with the selected attribut in j.view",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1325,7 +1325,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 64.0, 376.0, 50.0, 17.0 ],
-					"text" : "jcom.view"
+					"text" : "j.view"
 				}
 
 			}
@@ -1385,7 +1385,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 76.0, 340.0, 82.0, 17.0 ],
-					"text" : "jcom.remote alias"
+					"text" : "j.remote alias"
 				}
 
 			}
@@ -1450,7 +1450,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 57.0, 216.0, 145.0, 17.0 ],
-					"text" : "jcom.remote activity"
+					"text" : "j.remote activity"
 				}
 
 			}
@@ -1705,7 +1705,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 349.0, 198.0, 79.0, 17.0 ],
-					"text" : "jcom.remote port"
+					"text" : "j.remote port"
 				}
 
 			}
@@ -1785,7 +1785,7 @@
 					"background" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-11",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

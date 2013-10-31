@@ -416,7 +416,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 313.0, 499.0, 164.0, 20.0 ],
-					"text" : "jcom.receive"
+					"text" : "j.receive"
 				}
 
 			}
@@ -432,7 +432,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 181.0, 331.0, 132.0, 47.0 ],
-					"text" : "jcom.namespace @output attributes @format umenu_prefix"
+					"text" : "j.namespace @output attributes @format umenu_prefix"
 				}
 
 			}
@@ -824,7 +824,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 11.0, 119.0, 179.0, 33.0 ],
-									"text" : "jcom.namespace mySelection @filter/list model"
+									"text" : "j.namespace mySelection @filter/list model"
 								}
 
 							}
@@ -1383,7 +1383,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 285.0, 319.0, 228.0, 33.0 ],
-									"text" : "jcom.namespace mySelection @filter/list parameter @format jit.cellblock"
+									"text" : "j.namespace mySelection @filter/list parameter @format jit.cellblock"
 								}
 
 							}
@@ -1428,7 +1428,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 11.0, 319.0, 209.0, 33.0 ],
-									"text" : "jcom.namespace mySelection @filter/list model @format jit.cellblock"
+									"text" : "j.namespace mySelection @filter/list model @format jit.cellblock"
 								}
 
 							}
@@ -1511,7 +1511,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 2.0, 2.0, 318.0, 33.0 ],
-									"text" : "The jcom.namespace can handle a set of addresses to manage their selection state and display it for any format."
+									"text" : "The j.namespace can handle a set of addresses to manage their selection state and display it for any format."
 								}
 
 							}
@@ -2663,7 +2663,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 38.0, 611.0, 441.0, 20.0 ],
-									"text" : "Viewer : any jcom.remote."
+									"text" : "Viewer : any j.remote."
 								}
 
 							}
@@ -2678,7 +2678,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 38.0, 578.0, 441.0, 33.0 ],
-									"text" : "Container : any jcom.model or jcom.view. Actually a jcom.model is a Container with his tag attribute equals to model."
+									"text" : "Container : any j.model or j.view. Actually a j.model is a Container with his tag attribute equals to model."
 								}
 
 							}
@@ -2693,7 +2693,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 38.0, 545.0, 441.0, 33.0 ],
-									"text" : "Data : any jcom.parameter|message|return. Actually a jcom.parameter is a Data with his service attribute equals to parameter."
+									"text" : "Data : any j.parameter|message|return. Actually a j.parameter is a Data with his service attribute equals to parameter."
 								}
 
 							}
@@ -2752,7 +2752,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 2.0, 2.0, 622.0, 47.0 ],
-									"text" : "The jcom.namespace exploration can filter in or out the result it returns. It is possible to compare object type and/or attributes value, the name or the instance of an address using a regular expression. It is also possible to use a combination of many filters in order to filter in or out the namespace precisely."
+									"text" : "The j.namespace exploration can filter in or out the result it returns. It is possible to compare object type and/or attributes value, the name or the instance of an address using a regular expression. It is also possible to use a combination of many filters in order to filter in or out the namespace precisely."
 								}
 
 							}
@@ -2800,7 +2800,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 16.0, 447.0, 227.0, 20.0 ],
-									"text" : "jcom.namespace @format umenu_prefix"
+									"text" : "j.namespace @format umenu_prefix"
 								}
 
 							}
@@ -3689,7 +3689,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 481.0, 421.0, 296.0, 20.0 ],
-					"text" : "jcom.namespace @filter/list children @format umenu"
+					"text" : "j.namespace @filter/list children @format umenu"
 				}
 
 			}
@@ -3759,7 +3759,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 405.0, 289.0, 355.0, 20.0 ],
-					"text" : "jcom.namespace @address / @filter/list children @format umenu"
+					"text" : "j.namespace @address / @filter/list children @format umenu"
 				}
 
 			}
@@ -4020,7 +4020,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 52.0, 142.0, 154.0, 47.0 ],
-					"text" : "jcom.namespace @filter/list model @format umenu_prefix"
+					"text" : "j.namespace @filter/list model @format umenu_prefix"
 				}
 
 			}
@@ -4036,7 +4036,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 289.0, 133.0, 139.0, 60.0 ],
-					"text" : "jcom.namespace @format umenu_prefix @filter/list parameter @sort priority"
+					"text" : "j.namespace @format umenu_prefix @filter/list parameter @sort priority"
 				}
 
 			}
@@ -4066,7 +4066,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 469.0, 133.0, 140.0, 60.0 ],
-					"text" : "jcom.namespace @format umenu_prefix @filter/list message @sort priority"
+					"text" : "j.namespace @format umenu_prefix @filter/list message @sort priority"
 				}
 
 			}
@@ -4082,7 +4082,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 653.0, 133.0, 107.0, 74.0 ],
-					"text" : "jcom.namespace @format umenu_prefix @filter/list return @sort priority"
+					"text" : "j.namespace @format umenu_prefix @filter/list return @sort priority"
 				}
 
 			}
@@ -4556,11 +4556,11 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.namespace.mxo",
+				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ]

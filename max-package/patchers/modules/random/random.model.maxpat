@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 5,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 346.0, 419.0, 1021.0, 456.0 ],
+		"rect" : [ 229.0, 52.0, 1021.0, 430.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +38,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 429.0, 337.0, 111.0, 18.0 ],
-					"text" : "address /random.1"
+					"text" : "address /random.2"
 				}
 
 			}
@@ -52,7 +53,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 71.0, 214.0, 412.0, 18.0 ],
-					"text" : "jcom.message stop/on_next @type bang @description \"the next value output stops motor\""
+					"text" : "j.message stop/on_next @type bang @description \"the next value output stops motor\""
 				}
 
 			}
@@ -110,7 +111,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 264.0, 107.0, 272.0, 18.0 ],
-					"text" : "jcom.message stop @type none @description \"stop motor\""
+					"text" : "j.message stop @type none @description \"stop motor\""
 				}
 
 			}
@@ -128,8 +129,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 760.0, 563.0, 172.0, 242.0 ],
@@ -155,12 +157,26 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 86.0, 158.0, 32.5, 20.0 ],
+									"text" : "* 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 171.0, 90.0, 20.0 ],
+									"patching_rect" : [ 15.0, 186.0, 90.0, 20.0 ],
 									"text" : "pack l i"
 								}
 
@@ -255,12 +271,21 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 199.0, 25.0, 25.0 ]
+									"patching_rect" : [ 15.0, 214.0, 25.0, 25.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
@@ -298,7 +323,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-18", 1 ],
+									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-56", 0 ]
@@ -371,7 +396,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 379.0, 322.0, 18.0 ],
+					"patching_rect" : [ 640.0, 374.0, 322.0, 18.0 ],
 					"text" : "if you don't want to use absolute priority, you could use this abstraction"
 				}
 
@@ -385,8 +410,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 365.0, 180.0, 18.0 ],
-					"text" : "priority is define in the jcom.parameter"
+					"patching_rect" : [ 640.0, 360.0, 180.0, 18.0 ],
+					"text" : "priority is define in the j.parameter"
 				}
 
 			}
@@ -400,7 +425,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 429.0, 259.0, 72.0, 20.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -428,7 +453,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 393.0, 296.0, 40.0 ],
+					"patching_rect" : [ 640.0, 388.0, 296.0, 40.0 ],
 					"text" : "If we need to set the priority in a relative order, and not with an absolu number, you have to make a list with all the parameter in the order you want"
 				}
 
@@ -547,7 +572,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.0, 307.0, 374.0, 18.0 ],
-					"text" : "jcom.return val @type decimal @description \"current random value\" @priority 100"
+					"text" : "j.return val @type decimal @description \"current random value\" @priority 100"
 				}
 
 			}
@@ -604,7 +629,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 12.0, 675.0, 18.0 ],
-					"text" : "jcom.parameter sw @type boolean @description \"the minimum value for the randomed value\" @value/default 0 @priority 10"
+					"text" : "j.parameter sw @type boolean @description \"the minimum value for the randomed value\" @value/default 0 @priority 10"
 				}
 
 			}
@@ -620,7 +645,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 358.0, 159.0, 564.0, 29.0 ],
-					"text" : "jcom.parameter trans/max @type integer @description \"the maximum trans for the randomed value\" @value/default 100 @range/bounds 0 100 @range/clipmode both @range/clipmode both @priority 60 @ramp/drive scheduler"
+					"text" : "j.parameter trans/max @type integer @description \"the maximum trans for the randomed value\" @value/default 100 @range/bounds 0 100 @range/clipmode both @range/clipmode both @priority 60 @ramp/drive scheduler"
 				}
 
 			}
@@ -636,7 +661,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 310.857147, 127.0, 604.0, 29.0 ],
-					"text" : "jcom.parameter trans/min @type integer @value/default 0 @range/bounds 0 100 @range/clipmode both @priority 50 @ramp/drive scheduler"
+					"text" : "j.parameter trans/min @type integer @value/default 0 @range/bounds 0 100 @range/clipmode both @priority 50 @ramp/drive scheduler"
 				}
 
 			}
@@ -651,7 +676,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 217.0, 88.0, 709.0, 18.0 ],
-					"text" : "jcom.parameter time/max @type integer @description \"the maximum time for the randomed value\" @value/default 500 @priority 40 @ramp/drive scheduler"
+					"text" : "j.parameter time/max @type integer @description \"the maximum time for the randomed value\" @value/default 500 @priority 40 @ramp/drive scheduler"
 				}
 
 			}
@@ -666,7 +691,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 122.0, 50.0, 679.0, 18.0 ],
-					"text" : "jcom.parameter val/max @type float @description \"the maximum value for the randomed value\" @value/default 1 @priority 20 @ramp/drive scheduler"
+					"text" : "j.parameter val/max @type float @description \"the maximum value for the randomed value\" @value/default 1 @priority 20 @ramp/drive scheduler"
 				}
 
 			}
@@ -681,7 +706,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 75.0, 31.0, 678.0, 18.0 ],
-					"text" : "jcom.parameter val/min @type float @description \"the minimum value for the randomed value\" @value/default 0 @priority 10 @ramp/drive scheduler"
+					"text" : "j.parameter val/min @type float @description \"the minimum value for the randomed value\" @value/default 0 @priority 10 @ramp/drive scheduler"
 				}
 
 			}
@@ -710,7 +735,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 169.0, 69.0, 702.0, 18.0 ],
-					"text" : "jcom.parameter time/min @type integer @description \"the minimum time for the randomed value\" @value/default 100 @priority 30 @ramp/drive scheduler"
+					"text" : "j.parameter time/min @type integer @description \"the minimum time for the randomed value\" @value/default 100 @priority 30 @ramp/drive scheduler"
 				}
 
 			}
@@ -883,10 +908,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-19", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-62", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}

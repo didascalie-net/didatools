@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -55,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -78,6 +78,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -87,8 +88,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 84.0, 121.0, 18.0 ],
-									"text" : "0. 1."
+									"patching_rect" : [ 16.0, 84.0, 121.0, 18.0 ]
 								}
 
 							}
@@ -116,7 +116,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 16.0, 54.0, 78.0, 20.0 ],
-									"text" : "jcom.receive"
+									"text" : "j.receive"
 								}
 
 							}
@@ -174,7 +174,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -317,7 +317,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 73.0, 264.0, 164.0, 20.0 ],
-									"text" : "jcom.send /random.*/*/max"
+									"text" : "j.send /random.*/*/max"
 								}
 
 							}
@@ -466,7 +466,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 560.0, 157.0, 213.0, 20.0 ],
-					"text" : "jcom.receive /random.1/val"
+					"text" : "j.receive /random.1/val"
 				}
 
 			}
@@ -555,7 +555,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -617,7 +617,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 3.0, 173.0, 170.0, 20.0 ],
-									"text" : "jcom.send /random.1/external"
+									"text" : "j.send /random.1/external"
 								}
 
 							}
@@ -658,7 +658,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 181.0, 47.0, 170.0, 20.0 ],
-									"text" : "jcom.send /random.1/external"
+									"text" : "j.send /random.1/external"
 								}
 
 							}
@@ -700,7 +700,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 25.0, 47.0, 128.0, 33.0 ],
-									"text" : "jcom.send /udpsender.1/external"
+									"text" : "j.send /udpsender.1/external"
 								}
 
 							}
@@ -739,7 +739,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 276.0, 207.0, 188.0, 20.0 ],
-									"text" : "jcom.receive /random.1:activity/in"
+									"text" : "j.receive /random.1:activity/in"
 								}
 
 							}
@@ -766,7 +766,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 74.0, 208.0, 189.0, 20.0 ],
-									"text" : "jcom.receive /random.1:activity/in"
+									"text" : "j.receive /random.1:activity/in"
 								}
 
 							}
@@ -887,7 +887,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -910,7 +910,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -945,7 +944,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 249.0, 206.0, 165.0, 20.0 ],
-									"text" : "jcom.send /udpreceiver.1:init"
+									"text" : "j.send /udpreceiver.1:init"
 								}
 
 							}
@@ -978,7 +977,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x86"
 										}
 ,
@@ -1229,7 +1228,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 24.0, 173.0, 210.0, 20.0 ],
-									"text" : "jcom.receive /udpreceiver.1:initialized"
+									"text" : "j.receive /udpreceiver.1:initialized"
 								}
 
 							}
@@ -1254,7 +1253,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 249.0, 326.0, 165.0, 20.0 ],
-									"text" : "jcom.send /udpreceiver.1:init"
+									"text" : "j.send /udpreceiver.1:init"
 								}
 
 							}
@@ -1279,7 +1278,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 310.0, 192.0, 20.0 ],
-									"text" : "jcom.send /random.1/val/min:reset"
+									"text" : "j.send /random.1/val/min:reset"
 								}
 
 							}
@@ -1304,7 +1303,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 14.0, 108.0, 165.0, 20.0 ],
-									"text" : "jcom.send /random.1:init"
+									"text" : "j.send /random.1:init"
 								}
 
 							}
@@ -1448,7 +1447,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 555.0, 42.0, 366.0, 38.0 ],
-					"text" : "In this case, jcom.view in this view have absolute adress. So you can mix several models in one view"
+					"text" : "In this case, j.view in this view have absolute adress. So you can mix several models in one view"
 				}
 
 			}
@@ -1505,7 +1504,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 564.0, 118.0, 212.0, 20.0 ],
-					"text" : "jcom.remote /random.1/val/min"
+					"text" : "j.remote /random.1/val/min"
 				}
 
 			}
@@ -1523,7 +1522,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1685,7 +1684,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 503.0, 395.0, 141.0, 20.0 ],
-									"text" : "jcom.send /random.*:init"
+									"text" : "j.send /random.*:init"
 								}
 
 							}
@@ -1786,7 +1785,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 261.0, 513.0, 66.0, 20.0 ],
-									"text" : "jcom.send"
+									"text" : "j.send"
 								}
 
 							}
@@ -1844,7 +1843,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 23.0, 603.0, 92.0, 20.0 ],
-									"text" : "jcom.remote"
+									"text" : "j.remote"
 								}
 
 							}
@@ -1868,7 +1867,7 @@
 									"fontsize" : 12.0,
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 									"id" : "obj-1",
-									"items" : [ "bang", ",", "external", ",", "model", ",", "model/address", ",", "model/class", ",", "model/documentation", ",", "model/documentation/generate", ",", "model/edit", ",", "model/help", ",", "model/open", ",", "model/reference", ",", "preset", ",", "preset/interpolate", ",", "preset/mix", ",", "preset/order", ",", "preset/read", ",", "preset/read/again", ",", "preset/recall", ",", "preset/remove", ",", "preset/store", ",", "preset/write", ",", "preset/write/again", ",", "stop", ",", "stop/on_next", ",", "sw", ",", "time", ",", "time/max", ",", "time/min", ",", "trans", ",", "trans/max", ",", "trans/min", ",", "val", ",", "val/max", ",", "val/min" ],
+									"items" : [ "bang", ",", "external", ",", "model", ",", "preset", ",", "stop", ",", "stop/on_next", ",", "sw", ",", "time", ",", "time/max", ",", "time/min", ",", "trans", ",", "trans/max", ",", "trans/min", ",", "val", ",", "val/max", ",", "val/min" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1907,7 +1906,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 45.0, 413.0, 161.0, 47.0 ],
-									"text" : "jcom.namespace @address / @output parameter @format umenu_prefix"
+									"text" : "j.namespace @address / @output parameter @format umenu_prefix"
 								}
 
 							}
@@ -1922,7 +1921,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 273.0, 278.0, 175.0, 20.0 ],
-									"text" : "jcom.send /random.1/trans/min"
+									"text" : "j.send /random.1/trans/min"
 								}
 
 							}
@@ -1938,7 +1937,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 376.0, 243.0, 120.0, 33.0 ],
-									"text" : "jcom.send /random.1/trans/max"
+									"text" : "j.send /random.1/trans/max"
 								}
 
 							}
@@ -1954,7 +1953,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 376.0, 172.0, 132.0, 33.0 ],
-									"text" : "jcom.receive /random.1/trans/max"
+									"text" : "j.receive /random.1/trans/max"
 								}
 
 							}
@@ -1969,7 +1968,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 273.0, 152.0, 188.0, 20.0 ],
-									"text" : "jcom.receive /random.1/trans/min"
+									"text" : "j.receive /random.1/trans/min"
 								}
 
 							}
@@ -1997,7 +1996,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 44.0, 278.0, 171.0, 20.0 ],
-									"text" : "jcom.send /random.1/time/min"
+									"text" : "j.send /random.1/time/min"
 								}
 
 							}
@@ -2013,7 +2012,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 147.0, 243.0, 119.0, 33.0 ],
-									"text" : "jcom.send /random.1/time/max"
+									"text" : "j.send /random.1/time/max"
 								}
 
 							}
@@ -2029,7 +2028,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 147.0, 173.0, 119.0, 33.0 ],
-									"text" : "jcom.receive /random.1/time/max"
+									"text" : "j.receive /random.1/time/max"
 								}
 
 							}
@@ -2044,7 +2043,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 44.0, 152.0, 182.0, 20.0 ],
-									"text" : "jcom.receive /random.1/time/min"
+									"text" : "j.receive /random.1/time/min"
 								}
 
 							}
@@ -2086,7 +2085,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 188.0, 62.0, 181.0, 20.0 ],
-									"text" : "jcom.receive /random.1/val/max"
+									"text" : "j.receive /random.1/val/max"
 								}
 
 							}
@@ -2101,7 +2100,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 124.0, 40.0, 178.0, 20.0 ],
-									"text" : "jcom.receive /random.1/val/min"
+									"text" : "j.receive /random.1/val/min"
 								}
 
 							}
@@ -2131,7 +2130,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 42.0, 19.0, 152.0, 20.0 ],
-									"text" : "jcom.receive /random.1/val"
+									"text" : "j.receive /random.1/val"
 								}
 
 							}
@@ -2146,7 +2145,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 406.0, 105.0, 141.0, 20.0 ],
-									"text" : "jcom.send /random.1/sw"
+									"text" : "j.send /random.1/sw"
 								}
 
 							}
@@ -2659,137 +2658,133 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "random.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/modules/random",
-				"patcherrelativepath" : "./modules/random",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/modules/random",
+				"patcherrelativepath" : "./patchers/modules/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "random.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/modules/random",
-				"patcherrelativepath" : "./modules/random",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/modules/random",
+				"patcherrelativepath" : "./patchers/modules/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randtransf.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randomfR.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randomR.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minmaxi.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "explinlog.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tm-sw.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "udpreceiver.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/modules/osc",
-				"patcherrelativepath" : "./modules/osc",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/modules/osc",
+				"patcherrelativepath" : "./patchers/modules/osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "udpsender.model.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/m8-control/modules/osc",
-				"patcherrelativepath" : "./modules/osc",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/modules/osc",
+				"patcherrelativepath" : "./patchers/modules/osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.ui.mxo",
+				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.namespace.mxo",
+				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
  ]

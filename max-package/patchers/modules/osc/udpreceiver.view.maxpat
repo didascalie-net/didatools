@@ -38,7 +38,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 243.0, 116.0, 79.0, 17.0 ],
-					"text" : "jcom.remote print"
+					"text" : "j.remote print"
 				}
 
 			}
@@ -64,7 +64,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 402.0, 48.0, 63.0, 20.0 ],
-					"text" : "jcom.view"
+					"text" : "j.view"
 				}
 
 			}
@@ -110,7 +110,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 235.0, 319.0, 75.0, 17.0 ],
-					"text" : "jcom.remote sw"
+					"text" : "j.remote sw"
 				}
 
 			}
@@ -125,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 127.0, 179.0, 195.0, 33.0 ],
-					"text" : "maybe this could be done with the selected attribut in jcom.view",
+					"text" : "maybe this could be done with the selected attribut in j.view",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -173,7 +173,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 50.0, 216.0, 145.0, 17.0 ],
-					"text" : "jcom.remote activity"
+					"text" : "j.remote activity"
 				}
 
 			}
@@ -267,7 +267,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 342.0, 198.0, 79.0, 17.0 ],
-					"text" : "jcom.remote port"
+					"text" : "j.remote port"
 				}
 
 			}
@@ -299,7 +299,7 @@
 					"background" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-11",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -403,15 +403,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.ui.mxo",
+				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
  ]

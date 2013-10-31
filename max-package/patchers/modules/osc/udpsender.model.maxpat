@@ -38,7 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 421.0, 153.0, 164.0, 17.0 ],
-					"text" : "jcom.parameter print @value/default 0"
+					"text" : "j.parameter print @value/default 0"
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 239.0, 8.0, 559.0, 18.0 ],
-					"text" : "jcom.parameter sw @type boolean @description \"Switch on or off the process\" @value/default 0 @priority 10"
+					"text" : "j.parameter sw @type boolean @description \"Switch on or off the process\" @value/default 0 @priority 10"
 				}
 
 			}
@@ -124,7 +124,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 81.0, 171.0, 207.0, 33.0 ],
-					"text" : "jcom.model @description \"Send messages to a network using UDP\""
+					"text" : "j.model @description \"Send messages to a network using UDP\""
 				}
 
 			}
@@ -227,7 +227,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 253.0, 80.0, 139.0, 17.0 ],
-					"text" : "jcom.return activity @type string"
+					"text" : "j.return activity @type string"
 				}
 
 			}
@@ -271,7 +271,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 391.0, 49.0, 493.0, 27.0 ],
-					"text" : "jcom.parameter port @type integer @value/default 44000 @range/bounds 0 99999 @range/clipmode both @priority 100 @description \"UDP port used for the sending\""
+					"text" : "j.parameter port @type integer @value/default 44000 @range/bounds 0 99999 @range/clipmode both @priority 100 @description \"UDP port used for the sending\""
 				}
 
 			}
@@ -301,7 +301,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 460.0, 78.0, 446.0, 27.0 ],
-					"text" : "jcom.parameter host @type string @value/default 127.0.0.1 @priority 200 @description \"IP adress of the destination\""
+					"text" : "j.parameter host @type string @value/default 127.0.0.1 @priority 200 @description \"IP adress of the destination\""
 				}
 
 			}
