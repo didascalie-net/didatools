@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -40,20 +40,6 @@
 					"patching_rect" : [ 138.0, 202.0, 379.0, 19.0 ],
 					"text" : "j.return trig @type none @description \"bang for each new value choice\"",
 					"varname" : "val[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 753.0, 367.0, 67.0, 19.0 ],
-					"text" : "j.preset"
 				}
 
 			}
@@ -253,7 +239,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -701,7 +687,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 62.0, 85.0, 573.0, 43.0 ],
-					"text" : "j.parameter metrotime @type integer @value/default 100 @range/bounds 10. 100000. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace time @dataspace/unit millisecond @priority 2 @description \"metro time for random generator\"",
+					"text" : "j.parameter metrotime @type integer @value/default 100 @range/bounds 10. 100000. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function linear @dataspace time @dataspace/unit millisecond @priority 2 @description \"metro time for random generator\"",
 					"varname" : "metrotime"
 				}
 

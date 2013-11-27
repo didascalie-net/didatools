@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -53,7 +53,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 92.0, 105.0, 595.0, 31.0 ],
-					"text" : "j.parameter slider @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @priority 2 @description \"slider to use as controller\"",
+					"text" : "j.parameter slider @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function linear @priority 2 @description \"slider to use as controller\"",
 					"varname" : "metrotime"
 				}
 
@@ -69,20 +69,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.0, 189.0, 32.5, 19.0 ],
 					"text" : "gate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 731.0, 274.0, 67.0, 19.0 ],
-					"text" : "j.preset"
 				}
 
 			}
@@ -268,7 +254,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,

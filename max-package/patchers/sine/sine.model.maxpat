@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -148,7 +148,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 278.0, 596.0, 43.0 ],
-					"text" : "j.parameter vol @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function exponential @dataspace gain @dataspace/unit linear @priority 3 @description \"oscillator amplitude\"",
+					"text" : "j.parameter vol @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function exponential @dataspace gain @dataspace/unit linear @priority 3 @description \"oscillator amplitude\"",
 					"varname" : "metrotime[3]"
 				}
 
@@ -192,20 +192,6 @@
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 100.0, 251.0, 50.0, 19.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 591.0, 28.0, 67.0, 19.0 ],
-					"text" : "j.preset"
 				}
 
 			}
@@ -349,7 +335,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -699,7 +685,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 100.0, 201.0, 563.0, 43.0 ],
-					"text" : "j.parameter freq @type float @value/default 440 @range/bounds 0. 20000. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function exponential @dataspace pitch @dataspace/unit Hz @priority 2 @description \"oscillator frequency\"",
+					"text" : "j.parameter freq @type float @value/default 440 @range/bounds 0. 20000. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function exponential @dataspace pitch @dataspace/unit Hz @priority 2 @description \"oscillator frequency\"",
 					"varname" : "metrotime"
 				}
 

@@ -553,11 +553,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 28.0, 287.0, 219.0, 18.0 ],
-					"text" : "linecurv 0. 0"
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 28.0, 287.0, 46.0, 18.0 ],
+					"text" : "line 0."
 				}
 
 			}

@@ -87,7 +87,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 84.0, 121.0, 18.0 ]
+									"patching_rect" : [ 16.0, 84.0, 121.0, 18.0 ],
+									"text" : "0. 1."
 								}
 
 							}
@@ -558,7 +559,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 991.0, 51.0, 689.0, 345.0 ],
+						"rect" : [ 991.0, 51.0, 464.0, 333.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -581,12 +582,40 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 226.0, 284.0, 109.0, 20.0 ],
+									"text" : "print /random.1:sw"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 226.0, 226.0, 170.0, 20.0 ],
+									"text" : "j.receive /random.1/sw:activity"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-8",
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 139.0, 148.0, 501.0, 20.0 ],
+									"patching_rect" : [ 200.0, 157.0, 230.0, 47.0 ],
 									"text" : "how could be the status of their messages? this has to be under a node. Which one? system"
 								}
 
@@ -600,7 +629,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 29.0, 147.0, 108.0, 20.0 ],
+									"patching_rect" : [ 48.0, 157.0, 108.0, 20.0 ],
 									"text" : "active the external"
 								}
 
@@ -615,7 +644,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3.0, 173.0, 170.0, 20.0 ],
+									"patching_rect" : [ 22.0, 183.0, 170.0, 20.0 ],
 									"text" : "j.send /random.1/external"
 								}
 
@@ -628,7 +657,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 3.0, 146.0, 20.0, 20.0 ]
+									"patching_rect" : [ 22.0, 156.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -641,7 +670,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 207.0, 21.0, 108.0, 20.0 ],
+									"patching_rect" : [ 226.0, 31.0, 108.0, 20.0 ],
 									"text" : "active the external"
 								}
 
@@ -656,7 +685,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 181.0, 47.0, 170.0, 20.0 ],
+									"patching_rect" : [ 200.0, 57.0, 170.0, 20.0 ],
 									"text" : "j.send /random.1/external"
 								}
 
@@ -669,7 +698,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 181.0, 20.0, 20.0, 20.0 ]
+									"patching_rect" : [ 200.0, 30.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -682,7 +711,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 51.0, 21.0, 108.0, 20.0 ],
+									"patching_rect" : [ 70.0, 31.0, 108.0, 20.0 ],
 									"text" : "active the external"
 								}
 
@@ -698,7 +727,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 25.0, 47.0, 128.0, 33.0 ],
+									"patching_rect" : [ 44.0, 57.0, 128.0, 33.0 ],
 									"text" : "j.send /udpsender.1/external"
 								}
 
@@ -711,7 +740,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 25.0, 20.0, 20.0, 20.0 ]
+									"patching_rect" : [ 44.0, 30.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -723,8 +752,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 276.0, 240.0, 144.0, 20.0 ],
-									"text" : "print /random.1:activity/in"
+									"patching_rect" : [ 22.0, 284.0, 131.0, 20.0 ],
+									"text" : "print /random.1:activity"
 								}
 
 							}
@@ -737,35 +766,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 276.0, 207.0, 188.0, 20.0 ],
-									"text" : "j.receive /random.1:activity/in"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 74.0, 240.0, 144.0, 20.0 ],
-									"text" : "print /random.1:activity/in"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 74.0, 208.0, 189.0, 20.0 ],
-									"text" : "j.receive /random.1:activity/in"
+									"patching_rect" : [ 22.0, 226.0, 153.0, 20.0 ],
+									"text" : "j.receive /random.1:activity"
 								}
 
 							}
@@ -777,7 +779,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 23.0, 118.0, 112.0, 20.0 ],
+									"patching_rect" : [ 42.0, 128.0, 112.0, 20.0 ],
 									"text" : "print EXTERNAL"
 								}
 
@@ -791,22 +793,13 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 23.0, 88.0, 64.0, 20.0 ],
+									"patching_rect" : [ 42.0, 98.0, 64.0, 20.0 ],
 									"text" : "r /external"
 								}
 
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
@@ -821,6 +814,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
@@ -890,7 +892,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 788.0, 458.0, 589.0, 390.0 ],
+						"rect" : [ 788.0, 458.0, 587.0, 358.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -911,25 +913,14 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 157.0, 212.0, 20.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 149.5, 242.0, 163.0, 20.0 ],
-									"text" : "print udpreceiver.1:initialized"
+									"patching_rect" : [ 134.0, 234.0, 163.0, 20.0 ],
+									"text" : "print oscreceive.1:initialized"
 								}
 
 							}
@@ -954,7 +945,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 249.0, 206.0, 165.0, 20.0 ],
-									"text" : "j.send /udpreceiver.1:init"
+									"text" : "j.send /oscreceive.1:init"
 								}
 
 							}
@@ -1238,32 +1229,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 24.0, 173.0, 210.0, 20.0 ],
-									"text" : "j.receive /udpreceiver.1:init"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-28",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 249.0, 301.0, 20.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-36",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 249.0, 326.0, 165.0, 20.0 ],
-									"text" : "j.send /udpreceiver.1:init"
+									"text" : "j.receive /oscreceive.1:init"
 								}
 
 							}
@@ -1287,8 +1253,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 310.0, 192.0, 20.0 ],
-									"text" : "j.send /random.1/val/min:reset"
+									"patching_rect" : [ 15.0, 310.0, 160.0, 20.0 ],
+									"text" : "j.send /random.1/val/min:init"
 								}
 
 							}
@@ -1377,15 +1343,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-28", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1396,15 +1353,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-38", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-38", 0 ]
