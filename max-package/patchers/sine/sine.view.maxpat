@@ -4,7 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
+<<<<<<< HEAD
 			"revision" : 9,
+=======
+			"revision" : 7,
+>>>>>>> cff40f6af2d7c0419e7d5375f034b8fdbe94165c
 			"architecture" : "x86"
 		}
 ,
@@ -73,7 +77,10 @@
 					"patching_rect" : [ 407.0, 140.0, 32.5, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 19.0, 33.0, 18.0 ],
+<<<<<<< HEAD
 					"text" : "/-",
+=======
+>>>>>>> cff40f6af2d7c0419e7d5375f034b8fdbe94165c
 					"textcolor" : [ 0.194675, 0.0, 1.0, 1.0 ]
 				}
 
@@ -119,7 +126,10 @@
 					"patching_rect" : [ 140.0, 276.0, 32.5, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 43.0, 67.0, 18.0 ],
+<<<<<<< HEAD
 					"text" : "/-",
+=======
+>>>>>>> cff40f6af2d7c0419e7d5375f034b8fdbe94165c
 					"textcolor" : [ 0.194675, 0.0, 1.0, 1.0 ]
 				}
 
@@ -168,7 +178,10 @@
 					"patching_rect" : [ 140.0, 212.0, 35.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 109.0, 43.0, 67.0, 18.0 ],
+<<<<<<< HEAD
 					"text" : "/-",
+=======
+>>>>>>> cff40f6af2d7c0419e7d5375f034b8fdbe94165c
 					"textcolor" : [ 0.194675, 0.0, 1.0, 1.0 ]
 				}
 
@@ -187,7 +200,10 @@
 					"patching_rect" : [ 140.0, 155.0, 33.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 253.0, 0.0, 33.0, 18.0 ],
+<<<<<<< HEAD
 					"text" : "/-",
+=======
+>>>>>>> cff40f6af2d7c0419e7d5375f034b8fdbe94165c
 					"textcolor" : [ 0.194675, 0.0, 1.0, 1.0 ]
 				}
 
@@ -438,9 +454,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtm-view.maxpat",
+<<<<<<< HEAD
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "TEXT",
+=======
+				"bootpath" : "/Volumes/data/RENAUD/GITs/didatools/max-package/patchers",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+>>>>>>> cff40f6af2d7c0419e7d5375f034b8fdbe94165c
 				"implicit" : 1
 			}
 , 			{

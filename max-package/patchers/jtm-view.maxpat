@@ -4,11 +4,15 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
+<<<<<<< .merge_file_Xncs1m
 			"revision" : 9,
+=======
+			"revision" : 7,
+>>>>>>> .merge_file_aeNTNO
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 251.0, 72.0, 447.0, 439.0 ],
+		"rect" : [ 5.0, 131.0, 447.0, 439.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -205,7 +209,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 119.0, 120.0, 53.0, 18.0 ],
-					"text" : "address"
+					"text" : "dump"
 				}
 
 			}
