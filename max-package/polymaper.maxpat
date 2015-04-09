@@ -504,7 +504,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2030,7 +2029,7 @@
 				"name" : "rand.model.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/rand",
 				"patcherrelativepath" : "./patchers/rand",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -2044,49 +2043,49 @@
 				"name" : "rand.view.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/rand",
 				"patcherrelativepath" : "./patchers/rand",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtm-view.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers",
 				"patcherrelativepath" : "./patchers",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.model.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/sine",
 				"patcherrelativepath" : "./patchers/sine",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.view.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/sine",
 				"patcherrelativepath" : "./patchers/sine",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polymap.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/polymap",
 				"patcherrelativepath" : "./patchers/polymap",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider.view.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/slider",
 				"patcherrelativepath" : "./patchers/slider",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "slider.model.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/slider",
 				"patcherrelativepath" : "./patchers/slider",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
