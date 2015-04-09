@@ -166,7 +166,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 88.0, 118.0, 580.0, 27.0 ],
-					"text" : "j.parameter speedlim @type integer @value/default 0 @range/bounds 0 0 @range/clipmode down @priority 200 @description \"speedlim limitation to prevent too many messages incoming\""
+					"text" : "j.parameter speedlim @type integer @default 0 @range 0 0 @clipmode down @priority 200 @description \"speedlim limitation to prevent too many messages incoming\""
 				}
 
 			}
@@ -379,7 +379,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 11.0, 368.0, 220.0, 17.0 ],
-					"text" : "j.parameter print @value/default 0 @priority 999"
+					"text" : "j.parameter print @default 0 @priority 999"
 				}
 
 			}
@@ -395,7 +395,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 61.0, 45.0, 493.0, 27.0 ],
-					"text" : "j.parameter port @type integer @value/default 44000 @range/bounds 0 99999 @range/clipmode both @priority 100 @description \"UDP port used for the sending\""
+					"text" : "j.parameter port @type integer @default 44000 @range 0 99999 @clipmode both @priority 100 @description \"UDP port used for the sending\""
 				}
 
 			}
@@ -410,7 +410,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 35.0, 24.0, 559.0, 18.0 ],
-					"text" : "j.parameter sw @type boolean @description \"switch the process on or off\" @value/default 0 @priority 10"
+					"text" : "j.parameter sw @type boolean @description \"switch the process on or off\" @default 0 @priority 10"
 				}
 
 			}

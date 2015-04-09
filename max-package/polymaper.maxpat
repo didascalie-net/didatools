@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 110.0, 382.0, 923.0, 423.0 ],
+		"rect" : [ 27.0, 92.0, 923.0, 423.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -167,7 +167,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -426,6 +426,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "slider controler",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
@@ -439,6 +440,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"args" : [ "/slider.1", "/slider(view).1" ],
 					"id" : "obj-14",
 					"maxclass" : "bpatcher",
@@ -452,6 +454,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"args" : [ "/rand.1", "/rand(view).1" ],
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
@@ -465,6 +468,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"color" : [ 0.0, 0.71644, 0.314895, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
@@ -477,7 +481,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -500,7 +504,22 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-11",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 808.0, 559.0, 103.0, 20.0 ],
+									"text" : "Tom Mays - 2013"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -651,20 +670,6 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 376.0, 426.0, 100.0, 20.0 ],
 									"text" : "zl slice 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-19",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 581.0, 623.0, 172.0, 20.0 ],
-									"text" : "j.parameterArray polymap.[20]"
 								}
 
 							}
@@ -1817,6 +1822,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"args" : [ "/sine.1", "/sine(view).1" ],
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
@@ -1855,6 +1861,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "generates sine tone with freq and vol",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -1869,6 +1876,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"args" : [ "/rand.2", "/rand(view).2" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
@@ -1882,6 +1890,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "generates random numbers between 0 and 1",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
@@ -1895,6 +1904,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "generates random numbers between 0 and 1",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -2025,8 +2035,8 @@
 			}
 , 			{
 				"name" : "contains.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/polymap",
-				"patcherrelativepath" : "./patchers/polymap",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/namespace-utility",
+				"patcherrelativepath" : "./patchers/namespace-utility",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2060,8 +2070,8 @@
 			}
 , 			{
 				"name" : "polymap.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/reno/Documents/GITs/didatools/max-package/patchers/polymap",
+				"patcherrelativepath" : "./patchers/polymap",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2141,10 +2151,6 @@
 			}
 , 			{
 				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameterArray.mxo",
 				"type" : "iLaX"
 			}
 , 			{

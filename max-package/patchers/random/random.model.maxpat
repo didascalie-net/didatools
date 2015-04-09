@@ -629,7 +629,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 12.0, 675.0, 18.0 ],
-					"text" : "j.parameter sw @type boolean @description \"the minimum value for the randomed value\" @value/default 0 @priority 10"
+					"text" : "j.parameter sw @type boolean @description \"the minimum value for the randomed value\" @default 0 @priority 10"
 				}
 
 			}
@@ -645,7 +645,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 358.0, 159.0, 564.0, 29.0 ],
-					"text" : "j.parameter trans/max @type integer @description \"the maximum trans for the randomed value\" @value/default 100 @range/bounds 0 100 @range/clipmode both @range/clipmode both @priority 60 @ramp/drive scheduler"
+					"text" : "j.parameter trans/max @type integer @description \"the maximum trans for the randomed value\" @default 100 @range 0 100 @clipmode both @clipmode both @priority 60 @ramp/drive scheduler"
 				}
 
 			}
@@ -661,7 +661,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 310.857147, 127.0, 604.0, 29.0 ],
-					"text" : "j.parameter trans/min @type integer @value/default 0 @range/bounds 0 100 @range/clipmode both @priority 50 @ramp/drive scheduler"
+					"text" : "j.parameter trans/min @type integer @default 0 @range 0 100 @clipmode both @priority 50 @ramp/drive scheduler"
 				}
 
 			}
@@ -676,7 +676,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 217.0, 88.0, 709.0, 18.0 ],
-					"text" : "j.parameter time/max @type integer @description \"the maximum time for the randomed value\" @value/default 500 @priority 40 @ramp/drive scheduler"
+					"text" : "j.parameter time/max @type integer @description \"the maximum time for the randomed value\" @default 500 @priority 40 @ramp/drive scheduler"
 				}
 
 			}
@@ -691,7 +691,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 122.0, 50.0, 679.0, 18.0 ],
-					"text" : "j.parameter val/max @type float @description \"the maximum value for the randomed value\" @value/default 1 @priority 20 @ramp/drive scheduler"
+					"text" : "j.parameter val/max @type float @description \"the maximum value for the randomed value\" @default 1 @priority 20 @ramp/drive scheduler"
 				}
 
 			}
@@ -706,7 +706,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 75.0, 31.0, 678.0, 18.0 ],
-					"text" : "j.parameter val/min @type float @description \"the minimum value for the randomed value\" @value/default 0 @priority 10 @ramp/drive scheduler"
+					"text" : "j.parameter val/min @type float @description \"the minimum value for the randomed value\" @default 0 @priority 10 @ramp/drive scheduler"
 				}
 
 			}
@@ -735,7 +735,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 169.0, 69.0, 702.0, 18.0 ],
-					"text" : "j.parameter time/min @type integer @description \"the minimum time for the randomed value\" @value/default 100 @priority 30 @ramp/drive scheduler"
+					"text" : "j.parameter time/min @type integer @description \"the minimum time for the randomed value\" @default 100 @priority 30 @ramp/drive scheduler"
 				}
 
 			}

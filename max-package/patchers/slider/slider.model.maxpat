@@ -53,7 +53,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 92.0, 105.0, 595.0, 31.0 ],
-					"text" : "j.parameter slider @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function linear @priority 2 @description \"slider to use as controller\"",
+					"text" : "j.parameter slider @type float @default 0 @range 0. 1. @clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function linear @priority 2 @description \"slider to use as controller\"",
 					"varname" : "metrotime"
 				}
 
@@ -587,7 +587,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 37.0, 62.0, 541.0, 19.0 ],
-					"text" : "j.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
+					"text" : "j.parameter sw @type boolean @default 0 @priority 1 @description \"switch on and off the module\"",
 					"varname" : "metrotime[1]"
 				}
 

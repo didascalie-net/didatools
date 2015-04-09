@@ -102,7 +102,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 24.0, 263.0, 18.0 ],
-									"text" : "address /random.1/val/min:range/bounds, bang"
+									"text" : "address /random.1/val/min:range, bang"
 								}
 
 							}

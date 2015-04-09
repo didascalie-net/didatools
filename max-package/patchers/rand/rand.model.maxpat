@@ -656,7 +656,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 16.0, 35.0, 541.0, 19.0 ],
-					"text" : "j.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
+					"text" : "j.parameter sw @type boolean @default 0 @priority 1 @description \"switch on and off the module\"",
 					"varname" : "metrotime[1]"
 				}
 
@@ -687,7 +687,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 62.0, 85.0, 573.0, 43.0 ],
-					"text" : "j.parameter metrotime @type integer @value/default 100 @range/bounds 10. 100000. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function linear @dataspace time @dataspace/unit millisecond @priority 2 @description \"metro time for random generator\"",
+					"text" : "j.parameter metrotime @type integer @default 100 @range 10. 100000. @clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function linear @dataspace time @unit millisecond @priority 2 @description \"metro time for random generator\"",
 					"varname" : "metrotime"
 				}
 

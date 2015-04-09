@@ -148,7 +148,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 278.0, 596.0, 43.0 ],
-					"text" : "j.parameter vol @type float @value/default 0 @range/bounds 0. 1. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function exponential @dataspace gain @dataspace/unit linear @priority 3 @description \"oscillator amplitude\"",
+					"text" : "j.parameter vol @type float @default 0 @range 0. 1. @clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function exponential @dataspace gain @unit linear @priority 3 @description \"oscillator amplitude\"",
 					"varname" : "metrotime[3]"
 				}
 
@@ -654,7 +654,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 38.0, 149.0, 541.0, 19.0 ],
-					"text" : "j.parameter sw @type boolean @value/default 0 @priority 1 @description \"switch on and off the module\"",
+					"text" : "j.parameter sw @type boolean @default 0 @priority 1 @description \"switch on and off the module\"",
 					"varname" : "metrotime[1]"
 				}
 
@@ -685,7 +685,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 100.0, 201.0, 563.0, 43.0 ],
-					"text" : "j.parameter freq @type float @value/default 440 @range/bounds 0. 20000. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function exponential @dataspace pitch @dataspace/unit Hz @priority 2 @description \"oscillator frequency\"",
+					"text" : "j.parameter freq @type float @default 440 @range 0. 20000. @clipmode both @repetitions/filter 1 @ramp/drive scheduler @ramp/function exponential @dataspace pitch @unit Hz @priority 2 @description \"oscillator frequency\"",
 					"varname" : "metrotime"
 				}
 
